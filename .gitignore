@@ -1,0 +1,75 @@
+###############################################################################
+# KiCad – tijdelijke bestanden en backups
+###############################################################################
+
+# Automatische backups
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.tmp
+*.autosave*
+
+###############################################################################
+# KiCad – cache / gegenereerde bibliotheken
+###############################################################################
+
+# Schema cache (wordt automatisch opnieuw gegenereerd)
+*-cache.lib
+*-cache.dcm
+
+# Backup symbol/footprint libs (indien aangemaakt)
+*.lib~
+*.dcm~
+
+###############################################################################
+# KiCad – gerbers, drill files en andere outputs
+###############################################################################
+
+# Output-bestanden worden bewust niet geversioneerd
+exports/*
+!exports/README.md
+
+# Alternatief: als je outputs elders bewaart
+**/gerber/
+**/drill/
+**/*.gbr
+**/*.drl
+**/*.pos
+**/*.rpt
+
+###############################################################################
+# KiCad – session/local state
+###############################################################################
+
+# Lokale project- en sessiestatus
+*.kicad_prl
+
+###############################################################################
+# Besturingssysteem / editor rommel
+###############################################################################
+
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+
+###############################################################################
+# Archieven en tijdelijke bundels
+###############################################################################
+
+*.zip
+*.tar
+*.tar.gz
+
+###############################################################################
+# Bewust WEL versioneren (documentatie & intentie)
+###############################################################################
+# - *.kicad_sch
+# - *.kicad_pcb
+# - *.kicad_pro
+# - docs/** (ADR's, README, Architecture.md, Migration.md)
+###############################################################################
