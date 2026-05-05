@@ -45,6 +45,9 @@ exports/*
 # Lokale project- en sessiestatus
 *.kicad_prl
 
+# KiCad lock files
+*.lck
+
 ###############################################################################
 # Besturingssysteem / editor rommel
 ###############################################################################
