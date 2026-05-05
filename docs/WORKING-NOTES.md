@@ -8,6 +8,14 @@ Regels en beslismomenten staan in `WORKFLOW.md` en in de ADR’s.
 
 ---
 
+## Is deze repository opnieuw geinstalleerd?
+
+- Ja -> doe het volgende:
+  - kopieer tools\precommit naar .git\hooks\pre-commit
+  - in git bash: ```chmod +x .git/hooks/pre-commit```
+
+Dit zorgt ervoor dat alles in de folder kladblok alleen in work\branches kan bestaan.
+
 ## Wat doe ik bij een nieuwe werksessie?
 
 ### 1. Context herstellen

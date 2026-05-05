@@ -1,0 +1,49 @@
+#!/bin/sh
+set -eu
+
+BRANCH="$(git symbolic-ref --short HEAD 2>/dev/null || echo 'DETACHED')"
+WORKPAD_DIR="kladblok/"
+
+is_work_branch() {
+  case "$BRANCH" in
+    work/*) return 0 ;;
+    *)      return 1 ;;
+  esac
+}
+
+staged_workpad_files() {
+  git diff --cached --name-only | grep -E "^${WORKPAD_DIR}" || true
+}
+
+tracked_workpad_files() {
+  git ls-files | grep -E "^${WORKPAD_DIR}" || true
+}
+
+if is_work_branch; then
+  exit 0
+fi
+
+tracked="$(tracked_workpad_files)"
+if [ -n "$tracked" ]; then
+  echo "pre-commit: '${WORKPAD_DIR}' is alleen toegestaan op work/* branches (nu: '$BRANCH')."
+  echo "pre-commit: tracked bestanden onder '${WORKPAD_DIR}' worden uit de index gehaald (lokaal blijven ze bestaan)."
+  printf "%s\n" "$tracked" | while IFS= read -r f; do
+    git rm --cached -q -- "$f" || true
+  done
+fi
+
+staged="$(staged_workpad_files)"
+if [ -n "$staged" ]; then
+  echo "pre-commit: commit geblokkeerd omdat '${WORKPAD_DIR}' staged is op '$BRANCH'."
+  echo "pre-commit: gebruik '${WORKPAD_DIR}' alleen op work/* branches of unstage deze bestanden."
+  echo "pre-commit: tip: git restore --staged ${WORKPAD_DIR}"
+  exit 1
+fi
+
+if git diff --cached --quiet; then
+  echo "pre-commit: commit gestopt omdat er (na policy checks) geen staged wijzigingen overblijven."
+  echo "pre-commit: tip: stage eerst een niet-kladblok wijziging, of commit alleen kladblok op een work/* branch."
+  exit 1
+fi
+
+exit 0
