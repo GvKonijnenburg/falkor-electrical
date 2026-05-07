@@ -26,6 +26,7 @@ Items op dit sheet buiten subsheets en connecties:
 - VE_CAN passief
 - N2K passief
 - RF passief
+- SIG_AP input
 
 ## 30 Engine
 
@@ -34,14 +35,15 @@ Items op dit sheet buiten subsheets en connecties:
 - N2K passief
 - SIG_ENG_START input
 
-## 40 Sensors
-
-- N2K passief
-
-## 50 Displays
+## 40 User Interaction
 
 - N2K passief
 - SIG_ENG_START output
+- SIG_AP output
+
+## 50 Sensors
+
+- N2K passief
 
 ## 90 References
 
