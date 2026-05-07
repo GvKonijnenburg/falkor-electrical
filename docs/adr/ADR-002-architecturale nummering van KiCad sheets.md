@@ -55,12 +55,12 @@ Architecturale nummers gelijk laten lopen met KiCad export-/paginanummers.
 De volgende nummering wordt gehanteerd als **architecturale identificatie**:
 
 - `00` — Top‑level overzicht en systeemrelaties  
-- `10` — Power AC  
+- `10` — Power AC
 - `20` — Power DC
   - `24` — DC distributie en endpoints (subdomein van 20)  
-- `30` — Engine / voortstuwing (indien relevant)  
-- `40` — Displays & bediening  
-- `50` — Sensoren (beginpunten van informatie)  
+- `30` — Engine
+- `40` — Human Interaction  
+- `50` — Sensoren
 
 De nummers vormen **onderdeel van de architectuur** en worden gebruikt in:
 
