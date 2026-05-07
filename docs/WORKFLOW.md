@@ -42,16 +42,19 @@ Een feature branch mag worden gemerged naar `main` wanneer de target
 Dat betekent dat aan **alle** onderstaande criteria is voldaan:
 
 ### Architectuur
+
 - Alle benodigde architecturale domeinen bestaan.
 - Er zijn geen open vragen die alleen door herstructurering zijn op te lossen.
 - Nieuwe domeinen zouden alleen via een nieuwe ADR ontstaan.
 
 ### Top‑level (00)
+
 - `00_TopLevel` is logisch compleet en stabiel.
 - Netwerken, subsystemen en bridges zijn expliciet zichtbaar.
 - Verdere detaillering kan plaatsvinden **zonder wijziging van 00**.
 
 ### Abstractieniveau
+
 - Onderdelen staan op het juiste niveau:
   - geen kabeltopologie buiten 60,
   - geen zekeringen buiten 24,
@@ -59,10 +62,12 @@ Dat betekent dat aan **alle** onderstaande criteria is voldaan:
 - Er is geen “tijdelijke” plaatsing van componenten.
 
 ### Besluitdekking
+
 - Alle gemaakte keuzes zijn gedekt door bestaande ADR’s.
 - Er bestaan geen impliciete of ongedocumenteerde besluiten.
 
 ### Detailvrijheid
+
 - Kabeldiktes, zekeringwaarden en exacte productkeuzes
   zijn nog vrij invulbaar zonder architecturale impact.
 
