@@ -45,6 +45,11 @@ exports/*
 # Lokale project- en sessiestatus
 *.kicad_prl
 
+# Lokale backups en geschiedenis
+.history
+.history/
+*backups/
+
 # KiCad lock files
 *.lck
 
