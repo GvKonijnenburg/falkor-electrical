@@ -1,0 +1,48 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "89b84516-f6bd-4311-8f7e-53b9227957e4")
+	(paper "A4")
+	(title_block
+		(company "Gerard van Konijnenburg")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 38.1 38.1)
+		(uuid "2272bf63-0a03-4aaf-b237-cd432301930b")
+	)
+	(hierarchical_label "N2K"
+		(shape passive)
+		(at 38.1 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0eaccd67-a176-449e-9241-53735578b107")
+	)
+	(hierarchical_label "N2K"
+		(shape passive)
+		(at 38.1 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bf59db8-2d71-432c-8d1d-3766ab4798d0")
+	)
+	(hierarchical_label "N2K"
+		(shape passive)
+		(at 38.1 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93010510-9691-491c-bf9f-ede267da2544")
+	)
+)

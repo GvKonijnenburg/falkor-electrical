@@ -1,0 +1,34 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d560c917-bfe1-423d-ab21-98f02f708cec")
+	(paper "A4")
+	(title_block
+		(title "Systeem infrastructuur")
+		(company "Gerard van Konijnenburg")
+		(comment 8 "voor begrip en troubleshooting")
+		(comment 9 "Dit domein toont hoe energie- en datapaden praktisch zijn opgebouwd")
+	)
+	(lib_symbols)
+	(text "Dit domein toont hoe energie- en datapaden in het systeem praktisch zijn opgebouwd, voor begrip en troubleshooting"
+		(exclude_from_sim no)
+		(at 73.406 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f75626a-18be-4e55-8a1b-cce63ce2abb8")
+	)
+	(text "Dit domein toont hoe energie- en datapaden in het systeem praktisch zijn opgebouwd, voor begrip en troubleshooting"
+		(exclude_from_sim no)
+		(at 73.406 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82b7b057-69de-4451-ad87-cb7d01552c1e")
+	)
+)

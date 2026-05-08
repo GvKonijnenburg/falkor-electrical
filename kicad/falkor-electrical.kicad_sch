@@ -1,0 +1,1999 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9f36350e-4cf0-4a74-b7c3-6abcdf4429c7")
+	(paper "A4")
+	(title_block
+		(title "00 Systeemoverzicht")
+		(date "2026-05-08")
+		(rev "1")
+		(company "Gerard van Konijnenburg")
+	)
+	(lib_symbols
+		(symbol "Device:Antenna"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "falkor-electrical:Bridge_N2K_VEcan"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "A"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Bridge"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Bridge_N2K_VEcan_1_1"
+				(rectangle
+					(start -5 6.5)
+					(end 5 -6.5)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 194 194 194 0.5019607843)
+					)
+				)
+				(pin passive line
+					(at 8.89 3.81 180)
+					(length 3.81)
+					(name "VE_CAN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -3.81 180)
+					(length 3.81)
+					(name "N2K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "falkor-electrical:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "AC_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "AC_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "PE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Dit domein toont hoe energie- en \ndatapaden in het systeem praktisch \nzijn opgebouwd, voor begrip en \ntroubleshooting"
+		(exclude_from_sim no)
+		(at 140.97 119.634 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50ed2744-6c2b-48ae-aeac-3d97305aa594")
+	)
+	(text "Dit domein toont referentiepunten\nwaar verschillende netten bewust \naan elkaar worden gekoppeld"
+		(exclude_from_sim no)
+		(at 140.716 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82452caf-3d1b-452f-aa3c-78baf773e877")
+	)
+	(junction
+		(at 127 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50d8a4ec-85b2-4c2c-8cf7-bf9223eeecf7")
+	)
+	(junction
+		(at 196.85 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8801a329-efed-4ad3-a8ad-f87679efa33e")
+	)
+	(junction
+		(at 196.85 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eaed585-d770-4def-8957-6c2ebc246e78")
+	)
+	(junction
+		(at 123.19 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9344a8af-3d22-4dd8-9969-9c955d160f13")
+	)
+	(junction
+		(at 185.42 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a18eb76e-0167-429a-b10b-d60b5fd0e9a9")
+	)
+	(junction
+		(at 182.88 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2b1e08f-e1fe-40fa-a8f7-b28604fd15d0")
+	)
+	(junction
+		(at 130.81 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d25a66c5-0bed-4e43-ba2e-6e933fe5e529")
+	)
+	(junction
+		(at 123.19 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0f1259c-37db-420f-9a88-3d19e496f986")
+	)
+	(bus_entry
+		(at 57.15 55.88)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104a872e-f7c7-4472-8245-fe3e3f0d8b9b")
+	)
+	(bus_entry
+		(at 62.23 55.88)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df8c10e-1833-4bee-a441-c6cbde8e2875")
+	)
+	(bus_entry
+		(at 67.31 55.88)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87982a9b-a2f8-4701-a4b5-80434538932d")
+	)
+	(wire
+		(pts
+			(xy 241.3 53.34) (xy 245.11 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096406e4-13e9-4769-801f-4cc0910df635")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 123.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abde375-0c3a-44b9-8366-54146cb37280")
+	)
+	(wire
+		(pts
+			(xy 114.3 62.23) (xy 127 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0b028b-b572-408f-ab66-1af90718c0b2")
+	)
+	(wire
+		(pts
+			(xy 196.85 72.39) (xy 196.85 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15eadf1c-eadf-4f37-b421-b27342bc5964")
+	)
+	(wire
+		(pts
+			(xy 62.23 60.96) (xy 67.31 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274b1373-a85f-4348-a1ab-5d3875d0d95c")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2827286f-b9b0-4428-adf9-a27d3fdc9b4f")
+	)
+	(wire
+		(pts
+			(xy 123.19 101.6) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf38e70-13f4-49b3-afa3-889e9592f92a")
+	)
+	(wire
+		(pts
+			(xy 39.37 58.42) (xy 59.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f37be70-969e-4ad1-a06a-398ed2e31edb")
+	)
+	(wire
+		(pts
+			(xy 123.19 142.24) (xy 196.85 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f40a2e1-599d-4a84-8927-bfbfb6e94bd1")
+	)
+	(wire
+		(pts
+			(xy 177.8 55.88) (xy 182.88 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414dc429-0273-4f89-96d5-06c882865504")
+	)
+	(wire
+		(pts
+			(xy 177.8 62.23) (xy 185.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4180698b-0fb7-44dc-bba4-18bcbf020161")
+	)
+	(wire
+		(pts
+			(xy 120.65 91.44) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4706d5a3-c5b2-4e08-8597-a659d74ac2e6")
+	)
+	(bus
+		(pts
+			(xy 69.85 53.34) (xy 76.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f71f95-ef4b-487b-9337-c570835cab5e")
+	)
+	(wire
+		(pts
+			(xy 182.88 55.88) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e02d184-9e57-4a3a-8cb5-c9d9b23909f2")
+	)
+	(wire
+		(pts
+			(xy 241.3 142.24) (xy 245.11 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b209de-f67a-4402-ae0e-5334c072aa86")
+	)
+	(wire
+		(pts
+			(xy 177.8 53.34) (xy 203.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677dda0e-9ca5-4691-b08f-77c414bccfb2")
+	)
+	(wire
+		(pts
+			(xy 123.19 72.39) (xy 139.7 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695b059e-8495-49a9-99c5-326996701633")
+	)
+	(wire
+		(pts
+			(xy 196.85 142.24) (xy 203.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac7c0fe-cf40-4d59-bf79-68929c037adf")
+	)
+	(wire
+		(pts
+			(xy 123.19 72.39) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6b17a6-5bc1-44e1-adb0-843e2805cb7d")
+	)
+	(wire
+		(pts
+			(xy 59.69 58.42) (xy 62.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d834c57-ae0a-406f-8f02-511d6ff4ee13")
+	)
+	(wire
+		(pts
+			(xy 118.11 91.44) (xy 120.65 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "717e9597-02eb-45d3-9b61-49ca7ad9128f")
+	)
+	(wire
+		(pts
+			(xy 123.19 101.6) (xy 123.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd5e28b-afad-442d-a96f-4dc6e4921e32")
+	)
+	(wire
+		(pts
+			(xy 160.02 39.37) (xy 160.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7ca42c-f9b0-452e-a3c6-dafd03c50ee0")
+	)
+	(wire
+		(pts
+			(xy 114.3 59.69) (xy 139.7 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffd879a-9fad-4c3c-9bf0-0e39278668b6")
+	)
+	(wire
+		(pts
+			(xy 39.37 55.88) (xy 57.15 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86df8b8d-d03e-48a0-9e2f-23fc96c89b12")
+	)
+	(wire
+		(pts
+			(xy 114.3 55.88) (xy 130.81 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b93a52f-b3d7-42c2-be1f-c9683b9878ba")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e115435-cf20-4316-b302-06c939506875")
+	)
+	(wire
+		(pts
+			(xy 177.8 93.98) (xy 182.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92314ea4-2b20-4529-836b-88957ac618ac")
+	)
+	(wire
+		(pts
+			(xy 196.85 72.39) (xy 203.2 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d7fe7e-504d-4a85-8ef1-dbabe30fa04d")
+	)
+	(wire
+		(pts
+			(xy 177.8 72.39) (xy 196.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9606e70b-fc0b-457b-8865-ff2ff0f79efc")
+	)
+	(wire
+		(pts
+			(xy 133.35 91.44) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a812773b-236f-44a8-9fa2-4959fbb4b025")
+	)
+	(wire
+		(pts
+			(xy 130.81 55.88) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf040e4-2671-4179-9bfa-0d9f4015549c")
+	)
+	(wire
+		(pts
+			(xy 127 62.23) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a84283-df6d-4357-a0a8-736163f883cc")
+	)
+	(bus
+		(pts
+			(xy 69.85 53.34) (xy 64.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91553d7-ae0e-4688-9c1b-6780104bc8f3")
+	)
+	(wire
+		(pts
+			(xy 118.11 99.06) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccaa600-dc25-4f5f-9d7d-0a2c7ae20343")
+	)
+	(bus
+		(pts
+			(xy 64.77 53.34) (xy 59.69 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be04735c-1872-4d7c-9298-5628e3151eac")
+	)
+	(wire
+		(pts
+			(xy 39.37 60.96) (xy 62.23 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be22b29f-9579-468e-8a22-e1b889cc558b")
+	)
+	(wire
+		(pts
+			(xy 247.65 55.88) (xy 247.65 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0438d4a-e6b7-4351-b436-fc44c928eae5")
+	)
+	(wire
+		(pts
+			(xy 114.3 53.34) (xy 139.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c121c834-f67f-4704-97d2-38e3553fc4e0")
+	)
+	(wire
+		(pts
+			(xy 185.42 62.23) (xy 203.2 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c310f766-dc59-43df-a243-0f5cbed61a89")
+	)
+	(wire
+		(pts
+			(xy 114.3 142.24) (xy 123.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c9040b-a4cc-4193-b029-8f3b9d8dc53a")
+	)
+	(wire
+		(pts
+			(xy 182.88 93.98) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca40d430-e09c-482c-a4e6-d1643262ebd2")
+	)
+	(wire
+		(pts
+			(xy 245.11 142.24) (xy 247.65 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce31b0ba-fa77-443f-affd-eafd2be2c5e8")
+	)
+	(wire
+		(pts
+			(xy 185.42 62.23) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0b9425-e270-4bf1-a3cb-f4b649ffd7d7")
+	)
+	(wire
+		(pts
+			(xy 247.65 55.88) (xy 245.11 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24b4589-3286-4f41-ac83-f1d54fa32adc")
+	)
+	(wire
+		(pts
+			(xy 177.8 59.69) (xy 203.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5fcf95c-cd69-43df-98c7-bd4ed891cda2")
+	)
+	(wire
+		(pts
+			(xy 127 62.23) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4e693f-788d-4965-8a30-f27f6a4a3ae7")
+	)
+	(wire
+		(pts
+			(xy 130.81 55.88) (xy 139.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef68b695-8c2f-4e4c-826c-6921590a0315")
+	)
+	(wire
+		(pts
+			(xy 133.35 91.44) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b19167-501e-4234-a624-fe5b096a22c1")
+	)
+	(wire
+		(pts
+			(xy 180.34 91.44) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f957869a-2569-42d7-b87d-ae608e17f4ac")
+	)
+	(wire
+		(pts
+			(xy 182.88 55.88) (xy 203.2 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b5ad28-39f8-4cf3-a255-2b2cfa20d154")
+	)
+	(wire
+		(pts
+			(xy 177.8 91.44) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bbb3d5-4ef7-480b-a36a-f45463a12ac6")
+	)
+	(label "AC_IN_N"
+		(at 46.99 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9553cf24-c013-430e-908f-c75b9ee2536c")
+	)
+	(label "AC_IN_L"
+		(at 46.99 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dfab8e3-2d6e-409c-8b47-63f75fcc5bb5")
+	)
+	(label "PE"
+		(at 46.99 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9de5ca6-1ce7-4731-8be6-6abb19d376e4")
+	)
+	(symbol
+		(lib_id "falkor-electrical:Conn_01x03_Pin")
+		(at 34.29 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "523e27de-1d33-452b-b6d6-3b41e949bbbf")
+		(property "Reference" "J1"
+			(at 34.925 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Walstroomaansluiting"
+			(at 34.925 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 34.29 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd388959-48af-4b6a-9c20-65390af7b946")
+		)
+		(pin "2"
+			(uuid "938cdd78-fbc6-44a6-96e4-e9c2d60520fd")
+		)
+		(pin "3"
+			(uuid "2fcd1101-6d03-4a02-8cbc-5165df52197e")
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 160.02 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "637d7659-46c6-4ffd-bdf2-678accf7823a")
+		(property "Reference" "Y1"
+			(at 162.56 33.6549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RF Antenne"
+			(at 162.56 36.1949 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 160.02 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "932de708-1db7-4d97-85ce-daf4d7e97bb3")
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "falkor-electrical:Bridge_N2K_VEcan")
+		(at 109.22 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9bdeb4f-8b7d-4a32-b1d8-9a06e6f1b3c1")
+		(property "Reference" "ZZ1"
+			(at 109.22 85.852 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Bridge"
+			(at 109.22 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "db7d3172-a2a4-4b20-be38-cb379af8b0a1")
+		)
+		(pin "1"
+			(uuid "4ede4c2e-f065-46ec-b72a-1956f8a38b5f")
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
+					(reference "ZZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 50.8)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "13c187e7-31a7-4196-98a6-1bea17f9214f")
+		(property "Sheetname" "30 Motor"
+			(at 203.2 50.0376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics\\30_motor.kicad_sch"
+			(at 203.2 76.8354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "N2K" passive
+			(at 203.2 72.39 180)
+			(uuid "984b0c29-2767-4408-8477-7e203a5f939a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIG_ENG_START" input
+			(at 241.3 53.34 0)
+			(uuid "cff70c46-d028-4b76-b919-266785ac52f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_NEG_ALTN" output
+			(at 203.2 55.88 180)
+			(uuid "d5169eb8-11c9-4fd3-a355-4715d0eef4b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_NEG_START" input
+			(at 203.2 62.23 180)
+			(uuid "fc4bdf4f-7f9b-4b46-854b-f2d6aa210ecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_POS_ALTN" output
+			(at 203.2 53.34 180)
+			(uuid "94965ce8-f5b5-4bf6-8715-1624a54047fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_POS_START" input
+			(at 203.2 59.69 180)
+			(uuid "69a9dec7-943d-40fa-b9eb-eac8d1713b3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 88.9)
+		(size 38.1 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "516a7b53-bc29-4762-af31-31effd98f175")
+		(property "Sheetname" "90 Referentiepunten"
+			(at 139.7 88.1376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics\\90_referentiepunten.kicad_sch"
+			(at 139.7 107.3154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC_NEG_ALTN" passive
+			(at 177.8 91.44 0)
+			(uuid "ce6b9929-9112-4869-a5a2-52ab328b0489")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_NEG_CHARGE" passive
+			(at 139.7 91.44 180)
+			(uuid "7bfdf66b-f398-47b3-80e0-d88b3c144395")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_NEG_HOUSE" passive
+			(at 139.7 93.98 180)
+			(uuid "3d6a40ed-9222-4fc9-b192-85b3fb048c1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_NEG_START" passive
+			(at 177.8 93.98 0)
+			(uuid "c953b963-9193-4342-9518-77a7a7379c46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 114.3)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "67c2b1e8-3e93-4428-8c84-8880ab1a510c")
+		(property "Sheetname" "60 Systeem infrastructuur"
+			(at 139.7 113.5376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics\\60_systeem_infrastructuur.kicad_sch"
+			(at 139.7 127.6354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 139.7)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "915ffc08-98db-475b-937e-c98ec25874ac")
+		(property "Sheetname" "50 Sensoren"
+			(at 76.2 138.9376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics\\50_sensoren.kicad_sch"
+			(at 76.2 153.0354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "N2K" passive
+			(at 114.3 142.24 0)
+			(uuid "aa57b556-d6b1-4fd7-81b6-bf0afa316acc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 50.8)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651")
+		(property "Sheetname" "10 Wisselstroom"
+			(at 76.2 50.0376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics\\10_wisselstroom.kicad_sch"
+			(at 76.2 76.8354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{AC_IN}" input
+			(at 76.2 53.34 180)
+			(uuid "a698c99f-1de6-41b6-85dd-8bbf5657239d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_NEG_CHARGE" output
+			(at 114.3 55.88 0)
+			(uuid "0f35666a-bd13-4429-a0d3-1bc1bcb31107")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_NEG_HOUSE" input
+			(at 114.3 62.23 0)
+			(uuid "d8402600-963c-4703-a55d-39677952722c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_POS_CHARGE" output
+			(at 114.3 53.34 0)
+			(uuid "6a8d3892-8ef1-4d32-a6c0-19d825a02139")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_POS_HOUSE" input
+			(at 114.3 59.69 0)
+			(uuid "af191ec1-9601-4ca7-af05-3685e248f19b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VE_CAN" passive
+			(at 114.3 72.39 0)
+			(uuid "f0ca9704-588c-45f1-8164-e4fea2b5a8af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 139.7)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b89b9e14-7122-433c-9b2b-d675c438df65")
+		(property "Sheetname" "40 Gebruikersinteractie"
+			(at 203.2 138.9376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics\\40_gebruikersinteractie.kicad_sch"
+			(at 203.2 153.0354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIG_ENG_START" output
+			(at 241.3 142.24 0)
+			(uuid "67305e88-29ce-41e7-839d-65988fb478a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N2K" passive
+			(at 203.2 142.24 180)
+			(uuid "42bbc248-8447-4174-9c2e-24c2b7ca4a3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 50.8)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f70ca05a-4760-453c-90df-e8f85c465826")
+		(property "Sheetname" "20 Gelijkstroom"
+			(at 139.7 50.0376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics\\20_gelijkstroom.kicad_sch"
+			(at 139.7 76.8354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC_NEG_ALTN" input
+			(at 177.8 55.88 0)
+			(uuid "046b7e73-9394-404f-b009-3babb20d9d50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_NEG_CHARGE" input
+			(at 139.7 55.88 180)
+			(uuid "ac768491-6418-4501-9560-449612ad10c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_NEG_HOUSE" output
+			(at 139.7 62.23 180)
+			(uuid "74e99f33-6242-41a1-85f0-4818cec2c24f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_POS_START" output
+			(at 177.8 59.69 0)
+			(uuid "0f5db8ff-f2a2-40b6-a6ce-f4eeebbeb39e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_POS_ALTN" input
+			(at 177.8 53.34 0)
+			(uuid "290aa50d-7762-45ed-ad01-c60d373ca093")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_POS_CHARGE" input
+			(at 139.7 53.34 180)
+			(uuid "66567339-fa75-4dfd-be4e-138d7ecd25d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_POS_HOUSE" output
+			(at 139.7 59.69 180)
+			(uuid "980a9640-4640-4159-8382-041661274aa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_NEG_START" output
+			(at 177.8 62.23 0)
+			(uuid "24522e0b-8602-466a-ae1e-c45196116941")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "N2K" passive
+			(at 177.8 72.39 0)
+			(uuid "fa340ff9-e121-4d89-9fcb-7c93e1981b81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF" passive
+			(at 160.02 50.8 90)
+			(uuid "3bc57c39-89a5-408f-83c9-5fe6a6559b32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VE_CAN" passive
+			(at 139.7 72.39 180)
+			(uuid "c6c5b25f-0f54-4e6e-875e-808ed9167e65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

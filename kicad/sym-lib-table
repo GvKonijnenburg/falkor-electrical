@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "falkor-electrical") (type "KiCad") (uri "${KIPRJMOD}/project-lib/falkor-electrical.kicad_sym") (options "") (descr ""))
+)
