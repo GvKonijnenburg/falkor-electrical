@@ -40,6 +40,7 @@ Items op dit sheet buiten subsheets en connecties:
 - N2K passief
 - SIG_ENG_START output
 - SIG_AP output
+- SIG_ALTN_ACTIVE input **NIEUW**
 
 ## 50 Sensors
 

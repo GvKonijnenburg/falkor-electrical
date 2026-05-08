@@ -1,0 +1,21 @@
+kicad/
+├─ README.md                      # heel kort: entry points + verwijzing naar ADR’s/workflow
+├─ falkor-electrical.kicad_pro    # KiCad projectbestand
+├─ falkor-electrical.kicad_sch    # KiCad top-level schema (hierarchisch)
+│
+├─ schematics/                    # alle inhoudelijke bladen (00/10/20/…)
+│  ├─ 00_System.kicad_sch
+│  ├─ 10_Power_AC.kicad_sch
+│  ├─ 20_Power_DC.kicad_sch
+│  ├─ 24_DC_Distribution.kicad_sch
+│  ├─ 30_Engine.kicad_sch
+│  ├─ 40_User_Interaction.kicad_sch
+│  ├─ 50_Sensors.kicad_sch
+│  ├─ 60_System_Infrastructure.kicad_sch
+│  └─ 90_References.kicad_sch
+│
+├─ sym-lib/                       # project-specifieke symbolen
+│  └─ falkor-symbols.kicad_sym
+│
+└─ project-lib/
+   └─ README.md                   # waarom project library bestaat + scope (geen herhaling ADR’s)
