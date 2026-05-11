@@ -13,13 +13,13 @@ Items op dit sheet buiten subsheets en connecties:
 ## 10 AC
 
 - AC_IN passief
-- DC_POS_HOUSE, DC_NEG_HOUSE power input
+- DC_POS_INVERTER, DC_NEG_HOUSE power input
 - DC_POS_CHARGER, DC_NEG_CHARGER power output
 - VE_CAN passief
 
 ## 20 DC
 
-- DC_POS_HOUSE, DC_NEG_HOUSE power output
+- DC_POS_INVERTER, DC_NEG_HOUSE power output
 - DC_POS_START, DC_NEG_START power output
 - DC_POS_CHARGER, DC_NEG_CHARGER power input
 - DC_POS_ALTN, DC_NEG_ALTN power input
