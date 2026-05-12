@@ -364,7 +364,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "82430537-41c1-4074-a7e7-49c26a21cdff")
+			(uuid "82430537-41c1-4074-a7e7-49c26a21ce00")
 		)
 		(instances
 			(project "falkor-electrical"
@@ -441,7 +441,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "82430537-41c1-4074-a7e7-49c26a21cdff")
+			(uuid "82430537-41c1-4074-a7e7-49c26a21ce01")
 		)
 		(instances
 			(project "falkor-electrical"
@@ -518,7 +518,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "82430537-41c1-4074-a7e7-49c26a21cdff")
+			(uuid "82430537-41c1-4074-a7e7-49c26a21ce02")
 		)
 		(instances
 			(project "falkor-electrical"

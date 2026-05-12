@@ -678,7 +678,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6084af24-a743-490b-885f-005085c5574d")
+			(uuid "6084af24-a743-490b-885f-005085c5574e")
 		)
 		(instances
 			(project "falkor-electrical"
@@ -832,7 +832,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6084af24-a743-490b-885f-005085c5574d")
+			(uuid "6084af24-a743-490b-885f-005085c5574f")
 		)
 		(instances
 			(project "falkor-electrical"
@@ -1217,7 +1217,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6084af24-a743-490b-885f-005085c5574d")
+			(uuid "6084af24-a743-490b-885f-005085c55750")
 		)
 		(instances
 			(project "falkor-electrical"
@@ -1294,7 +1294,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6084af24-a743-490b-885f-005085c5574d")
+			(uuid "6084af24-a743-490b-885f-005085c55751")
 		)
 		(instances
 			(project "falkor-electrical"
@@ -1371,7 +1371,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6084af24-a743-490b-885f-005085c5574d")
+			(uuid "6084af24-a743-490b-885f-005085c55752")
 		)
 		(instances
 			(project "falkor-electrical"
@@ -1448,7 +1448,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6084af24-a743-490b-885f-005085c5574d")
+			(uuid "6084af24-a743-490b-885f-005085c55753")
 		)
 		(instances
 			(project "falkor-electrical"
@@ -1525,7 +1525,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6084af24-a743-490b-885f-005085c5574d")
+			(uuid "6084af24-a743-490b-885f-005085c55754")
 		)
 		(instances
 			(project "falkor-electrical"

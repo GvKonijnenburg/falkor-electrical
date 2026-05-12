@@ -901,6 +901,84 @@
 		)
 	)
 	(symbol
+		(lib_id "falkor-electrical:IF_Passief")
+		(at 58.42 31.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b7cc24c-ed13-46cd-a85d-dc4dd9907f92")
+		(property "Reference" "T2"
+			(at 60.96 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 58.42 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "919ff0f8-bd2c-44d5-9d5f-0fbaee51a195")
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
+					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 50.8 43.18 0)
 		(unit 1)
@@ -912,7 +990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aec15502-0dc5-428a-be92-0ac2eef18f2a")
-		(property "Reference" "#FLG1"
+		(property "Reference" "#FLG01"
 			(at 50.8 41.275 0)
 			(hide yes)
 			(show_name no)
@@ -972,7 +1050,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "#FLG1")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -1057,84 +1135,6 @@
 		)
 	)
 	(symbol
-		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 58.42 31.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0e102d9-34b4-4ebb-b29b-7d2ffab35fc1")
-		(property "Reference" "T2"
-			(at 60.96 31.7499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 58.42 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90003e86-6a78-4d5c-85c4-3d590e126b04")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "T2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 50.8 46.99 0)
 		(unit 1)
@@ -1146,7 +1146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec823a66-b674-400e-8a79-e5b58ab84f3f")
-		(property "Reference" "#FLG2"
+		(property "Reference" "#FLG02"
 			(at 50.8 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -1206,7 +1206,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "#FLG2")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
