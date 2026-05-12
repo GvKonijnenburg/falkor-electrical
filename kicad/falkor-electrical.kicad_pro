@@ -390,6 +390,21 @@
         "AC_IN_L",
         "AC_IN_N",
         "PE"
+      ],
+      "AC_OUT_1": [
+        "AC_OUT_1_L",
+        "AC_OUT_1_N",
+        "PE"
+      ],
+      "AC_OUT_2": [
+        "AC_OUT_2_L",
+        "AC_OUT_2_N",
+        "PE"
+      ],
+      "AC_SHORE": [
+        "AC_SHORE_L",
+        "AC_SHORE_N",
+        "AC_SHORE_PE"
       ]
     },
     "connection_grid_size": 50.0,
@@ -432,7 +447,7 @@
         "uuid": "9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
       }
     ],
-    "used_designators": "ZZ1,J1,#FLG1-7,Y1,A1,T1-25",
+    "used_designators": "ZZ1,J1,#FLG1-17,T1-39,Y1",
     "variants": []
   },
   "sheets": [
@@ -443,6 +458,10 @@
     [
       "af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651",
       "10 Wisselstroom"
+    ],
+    [
+      "df4afe2f-b2d2-46ac-9835-4001acfc4aab",
+      "15 Energieconversie"
     ],
     [
       "f70ca05a-4760-453c-90df-e8f85c465826",
@@ -461,12 +480,20 @@
       "50 Sensoren"
     ],
     [
+      "67c2b1e8-3e93-4428-8c84-8880ab1a510c",
+      "60 Systeem infrastructuur"
+    ],
+    [
       "516a7b53-bc29-4762-af31-31effd98f175",
       "90 Referentiepunten"
     ],
     [
-      "67c2b1e8-3e93-4428-8c84-8880ab1a510c",
-      "60 Systeem infrastructuur"
+      "3303258c-cace-45b6-b0ec-1149fee92741",
+      "11_Walstroom en bescherming"
+    ],
+    [
+      "69803f14-c382-48bb-abea-83bd565ceb0c",
+      "12 Wisselstroom verbruikers"
     ]
   ],
   "text_variables": {},

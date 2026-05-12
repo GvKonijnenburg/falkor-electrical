@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "d2681aa7-f902-4bb9-96e3-07bf934f5891")
+	(uuid "c12264a0-bf4c-4d6b-b4f0-3cfac17cf435")
 	(paper "A4")
 	(title_block
 		(company "Gerard van Konijnenburg")
@@ -311,244 +311,338 @@
 		)
 	)
 	(junction
-		(at 46.99 72.39)
+		(at 100.33 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c052bb7b-7717-4c74-9295-44845e540d87")
+		(uuid "481d27d4-70b2-42e2-94c9-ef61612fe22f")
 	)
 	(junction
-		(at 46.99 87.63)
+		(at 82.55 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f2b2e5a2-9317-471b-b457-aff08841eb04")
+		(uuid "9bd6a7d6-9680-4c5a-babd-a65e3b3294ec")
+	)
+	(junction
+		(at 100.33 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa5a7282-e9fc-4700-91d3-15636b9e94ea")
+	)
+	(junction
+		(at 82.55 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9f55221-d360-4f0f-89c3-8a039a3e4683")
+	)
+	(bus_entry
+		(at 60.96 24.13)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae73dde-1e67-4909-85fd-cd30e46d95cf")
+	)
+	(bus_entry
+		(at 80.01 60.96)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c62050-be26-402e-8488-6ccb66a1027f")
+	)
+	(bus_entry
+		(at 63.5 24.13)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c59748-7d5d-43a2-9a33-977c72619f38")
+	)
+	(bus_entry
+		(at 74.93 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1982d0f-698a-411e-afe2-26323f0c4c90")
+	)
+	(bus_entry
+		(at 58.42 24.13)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1c074f-f2e8-47a9-a0ee-f4fbef069ab5")
+	)
+	(bus_entry
+		(at 77.47 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff983e81-50c0-4274-8c32-34b7f4ae28e6")
 	)
 	(wire
 		(pts
-			(xy 41.91 53.34) (xy 46.99 53.34)
+			(xy 80.01 63.5) (xy 85.09 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b97f238-22d9-48c2-b573-8c7659c719f2")
+		(uuid "21939aca-a337-42bb-be92-33bd52358294")
 	)
 	(wire
 		(pts
-			(xy 46.99 87.63) (xy 48.26 87.63)
+			(xy 60.96 26.67) (xy 68.58 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e2439f9-befe-42b8-81aa-87e0dc100a20")
+		(uuid "2e9cee27-2bc0-4785-a714-db744e3d989d")
 	)
 	(wire
 		(pts
-			(xy 44.45 38.1) (xy 50.8 38.1)
+			(xy 82.55 30.48) (xy 85.09 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f10a23c-b190-4ef2-a446-e91151ab585b")
+		(uuid "3e1f8fa3-7570-4b4c-b99c-20f1e89a8a5d")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 43.18 87.63) (xy 46.99 87.63)
+			(xy 50.8 60.96) (xy 80.01 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97b759ec-4f93-45f5-b800-7b7d5ce6cd11")
+		(uuid "4dc5fc39-1d8b-46ac-99a8-2b306786bbd6")
 	)
 	(wire
 		(pts
-			(xy 41.91 49.53) (xy 46.99 49.53)
+			(xy 100.33 57.15) (xy 105.41 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ab2e5cd-be3b-4bf1-9449-36f591d3be51")
+		(uuid "50a30dff-ef36-49c1-8221-3002e3901f98")
 	)
 	(wire
 		(pts
-			(xy 43.18 72.39) (xy 46.99 72.39)
+			(xy 85.09 68.58) (xy 100.33 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b53a2030-835e-42ae-8936-aa33ce5cd3ee")
+		(uuid "663e61d3-93d9-42fa-825a-82f95c874410")
 	)
 	(wire
 		(pts
-			(xy 46.99 72.39) (xy 48.26 72.39)
+			(xy 67.31 30.48) (xy 82.55 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c04d5c8b-cecd-43b4-a258-ff807d840c00")
+		(uuid "6c4d5eb4-04c1-46a8-b47b-1f6a16b81433")
 	)
 	(wire
 		(pts
-			(xy 44.45 31.75) (xy 50.8 31.75)
+			(xy 66.04 26.67) (xy 82.55 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7c2cc24-2758-4e33-94e4-85232ea91aaa")
+		(uuid "6d59c1e1-299f-40ab-99b5-d2fd61c97548")
 	)
-	(hierarchical_label "N2K"
-		(shape passive)
-		(at 44.45 38.1 180)
+	(wire
+		(pts
+			(xy 63.5 26.67) (xy 67.31 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e4d2c1-ab3d-4578-b8ef-5afb2a1abf20")
+	)
+	(bus
+		(pts
+			(xy 36.83 24.13) (xy 63.5 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a526093a-6349-49fa-a744-df3cee6c044f")
+	)
+	(wire
+		(pts
+			(xy 83.82 57.15) (xy 100.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82f7cbe-877a-4046-aec1-a29c5ffaba45")
+	)
+	(wire
+		(pts
+			(xy 85.09 72.39) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8bfbaeb-640a-4e6b-9400-5e76330f9178")
+	)
+	(wire
+		(pts
+			(xy 77.47 63.5) (xy 85.09 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4979a5e-ca61-4b27-bfd4-bc1f9ed366e4")
+	)
+	(wire
+		(pts
+			(xy 82.55 58.42) (xy 83.82 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd81531-19a9-43ae-995e-f1f940d05c94")
+	)
+	(wire
+		(pts
+			(xy 68.58 34.29) (xy 85.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df391d60-6d89-449b-b483-54b95413979e")
+	)
+	(wire
+		(pts
+			(xy 100.33 68.58) (xy 105.41 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed041486-53f2-4c58-aaa5-39ec54640d51")
+	)
+	(wire
+		(pts
+			(xy 82.55 26.67) (xy 85.09 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef578ba-b44f-49e4-9eb0-c51dcb7649aa")
+	)
+	(label "PE"
+		(at 85.09 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "2415e467-1cf0-43d7-8177-2efb5a251a08")
+		(uuid "1ab0bc64-4c58-4e9c-b557-77fcd327bad1")
 	)
-	(hierarchical_label "SIG_ENG_START"
-		(shape input)
-		(at 44.45 31.75 180)
+	(label "AC_SHORE_L"
+		(at 76.2 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "32ee29e2-2249-4484-90f4-5e300d3a5e51")
+		(uuid "1ea5c879-a2d5-40f4-9fd5-d5b9b990ae7c")
 	)
-	(hierarchical_label "DC_NEG_ALTN"
+	(label "AC_IN_N"
+		(at 85.09 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32a23605-87bc-473c-9eca-65848e44fda5")
+	)
+	(label "AC_SHORE_PE"
+		(at 69.85 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "790ec915-6580-481e-9733-5f090de4b244")
+	)
+	(label "AC_SHORE_N"
+		(at 67.31 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a623ab31-1b8e-4687-9897-19447b201807")
+	)
+	(label "AC_IN_L"
+		(at 83.82 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8aea3e2-411f-4ddf-8962-a489ffad6262")
+	)
+	(hierarchical_label "{AC_IN}"
 		(shape output)
-		(at 43.18 87.63 180)
+		(at 50.8 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "5011fd38-a0b3-45d0-8980-b7a21e0bf09c")
+		(uuid "71cc0eb7-0c0d-4dbf-80c7-367a35cf454c")
 	)
-	(hierarchical_label "DC_NEG_START"
-		(shape input)
-		(at 41.91 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "63424360-cdc5-4b15-b64e-a84467cd97c7")
-	)
-	(hierarchical_label "DC_POS_ALTN"
+	(hierarchical_label "{AC_SHORE}"
 		(shape output)
-		(at 43.18 72.39 180)
+		(at 36.83 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "80613af1-1dbf-44ed-acce-928aeca9c875")
-	)
-	(hierarchical_label "DC_POS_START"
-		(shape input)
-		(at 41.91 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff7d1f36-eaab-4f4a-91bd-4ff7e23036cc")
-	)
-	(symbol
-		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 52.07 53.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01028877-39c0-4960-87e1-9792441c5683")
-		(property "Reference" "T25"
-			(at 54.61 53.3399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 52.07 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e32aef7b-d743-414f-a669-5d1ba1d83b7c")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/13c187e7-31a7-4196-98a6-1bea17f9214f"
-					(reference "T25")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "d3fab589-df98-4b9a-bfa2-deec8ca24058")
 	)
 	(symbol
 		(lib_id "falkor-electrical:IF_Passief")
-		(at 55.88 38.1 90)
+		(at 110.49 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -557,9 +651,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17e09e7b-b796-4a50-95a6-3bbde7c3dda0")
-		(property "Reference" "T23"
-			(at 58.42 38.0999 90)
+		(uuid "03a6b850-278a-4e48-a2b2-31cbb673c0e8")
+		(property "Reference" "T33"
+			(at 113.03 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -570,7 +664,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 55.88 38.1 0)
+			(at 110.49 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -580,7 +674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 38.1 0)
+			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -591,7 +685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 38.1 0)
+			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -602,7 +696,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 38.1 0)
+			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -613,12 +707,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "938a10aa-5491-4e24-b81c-bf661416921c")
+			(uuid "f55048aa-d80a-441a-a95a-46e982e397f7")
 		)
 		(instances
 			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/13c187e7-31a7-4196-98a6-1bea17f9214f"
-					(reference "T23")
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
+					(reference "T33")
 					(unit 1)
 				)
 			)
@@ -626,7 +720,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 53.34 72.39 90)
+		(at 90.17 30.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -635,9 +729,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "47b79646-28a3-408f-a903-03d21d49b663")
-		(property "Reference" "T26"
-			(at 55.88 72.3899 90)
+		(uuid "3c14bff0-195e-41b0-86cc-8ebb455b5c4e")
+		(property "Reference" "T29"
+			(at 92.71 30.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -648,7 +742,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 53.34 72.39 0)
+			(at 90.17 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -658,7 +752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 72.39 0)
+			(at 90.17 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -669,7 +763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 72.39 0)
+			(at 90.17 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -680,7 +774,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 72.39 0)
+			(at 90.17 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -691,12 +785,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e32aef7b-d743-414f-a669-5d1ba1d83b7d")
+			(uuid "c986ae53-c70d-43d7-834c-8d9d0129ae8e")
 		)
 		(instances
 			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/13c187e7-31a7-4196-98a6-1bea17f9214f"
-					(reference "T26")
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
+					(reference "T29")
 					(unit 1)
 				)
 			)
@@ -704,7 +798,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 46.99 72.39 0)
+		(at 82.55 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -713,9 +807,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "507e87b1-f3ec-4811-99ee-d210577dcd44")
-		(property "Reference" "#FLG011"
-			(at 46.99 70.485 0)
+		(uuid "4ee42b96-ca90-4706-9e42-0e56719c8b33")
+		(property "Reference" "#FLG014"
+			(at 82.55 28.575 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -726,7 +820,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 46.99 67.31 0)
+			(at 82.55 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -736,7 +830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 72.39 0)
+			(at 82.55 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -747,7 +841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 72.39 0)
+			(at 82.55 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -758,7 +852,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 46.99 72.39 0)
+			(at 82.55 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -769,20 +863,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "524d8d22-2350-4846-a3db-7f4b5c5b0452")
+			(uuid "1fa5ab8d-7a0f-4915-bc2f-f3b201f66c8d")
 		)
 		(instances
 			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/13c187e7-31a7-4196-98a6-1bea17f9214f"
-					(reference "#FLG011")
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
+					(reference "#FLG014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 46.99 87.63 0)
+		(lib_id "falkor-electrical:IF_Power_Input")
+		(at 110.49 68.58 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -791,9 +885,86 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5a647814-f35e-487e-932e-8accf5c51794")
-		(property "Reference" "#FLG012"
-			(at 46.99 85.725 0)
+		(uuid "86e70201-35a3-44e2-bf71-0a8df8771a12")
+		(property "Reference" "T32"
+			(at 113.03 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 110.49 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd00dd5a-81c7-4bac-9feb-7a8366c7dec9")
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
+					(reference "T32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 100.33 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a664296f-fc6a-42ca-a219-ae98db82a373")
+		(property "Reference" "#FLG016"
+			(at 100.33 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -804,7 +975,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 46.99 82.55 0)
+			(at 100.33 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -814,7 +985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 87.63 0)
+			(at 100.33 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -825,7 +996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 87.63 0)
+			(at 100.33 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -836,7 +1007,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 46.99 87.63 0)
+			(at 100.33 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -847,12 +1018,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "524d8d22-2350-4846-a3db-7f4b5c5b0452")
+			(uuid "2c267172-5044-4409-9e33-b7ab9d34e679")
 		)
 		(instances
 			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/13c187e7-31a7-4196-98a6-1bea17f9214f"
-					(reference "#FLG012")
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
+					(reference "#FLG016")
 					(unit 1)
 				)
 			)
@@ -860,7 +1031,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 53.34 87.63 90)
+		(at 110.49 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -869,9 +1040,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6fcd82ad-2df6-42c7-b2d4-358c824e6ffa")
-		(property "Reference" "T27"
-			(at 55.88 87.6299 90)
+		(uuid "ac129392-8bb1-40e5-8180-409634803af1")
+		(property "Reference" "T31"
+			(at 113.03 57.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -882,7 +1053,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 53.34 87.63 0)
+			(at 110.49 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -892,7 +1063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 87.63 0)
+			(at 110.49 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -903,7 +1074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 87.63 0)
+			(at 110.49 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -914,7 +1085,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 87.63 0)
+			(at 110.49 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -925,20 +1096,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "e32aef7b-d743-414f-a669-5d1ba1d83b7e")
+			(uuid "48263a0e-076a-48e5-97ca-bd3f4bb31e87")
 		)
 		(instances
 			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/13c187e7-31a7-4196-98a6-1bea17f9214f"
-					(reference "T27")
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
+					(reference "T31")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 52.07 49.53 90)
+		(lib_id "power:PWR_FLAG")
+		(at 82.55 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -947,20 +1118,20 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8e513e31-790d-41f6-9490-5346711adbcb")
-		(property "Reference" "T24"
-			(at 54.61 49.5299 90)
+		(uuid "b1d8cd29-2df3-4917-8178-ea837c5a8d52")
+		(property "Reference" "#FLG013"
+			(at 82.55 24.765 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" ""
-			(at 52.07 49.53 0)
+		(property "Value" "PWR_FLAG"
+			(at 82.55 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -970,7 +1141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 49.53 0)
+			(at 82.55 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -981,7 +1152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 49.53 0)
+			(at 82.55 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -991,8 +1162,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 52.07 49.53 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 82.55 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1003,12 +1174,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e32aef7b-d743-414f-a669-5d1ba1d83b7f")
+			(uuid "b7da255f-26be-4b42-8dde-1401139a7b10")
 		)
 		(instances
 			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/13c187e7-31a7-4196-98a6-1bea17f9214f"
-					(reference "T24")
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)
@@ -1016,7 +1187,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:IF_Passief")
-		(at 55.88 31.75 90)
+		(at 90.17 34.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1025,9 +1196,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "967f913d-9cf7-4366-8a2f-48e2e0d65c7c")
-		(property "Reference" "T22"
-			(at 58.42 31.7499 90)
+		(uuid "b4e1da7a-9171-4457-9d81-612c5c1add65")
+		(property "Reference" "T30"
+			(at 92.71 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1038,7 +1209,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 55.88 31.75 0)
+			(at 90.17 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1048,7 +1219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 31.75 0)
+			(at 90.17 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1059,7 +1230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 31.75 0)
+			(at 90.17 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1070,7 +1241,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 31.75 0)
+			(at 90.17 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1081,12 +1252,168 @@
 			)
 		)
 		(pin "1"
-			(uuid "938a10aa-5491-4e24-b81c-bf661416921d")
+			(uuid "3c369d0c-72c3-4e49-bf5d-6f4c2aa6120b")
 		)
 		(instances
 			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/13c187e7-31a7-4196-98a6-1bea17f9214f"
-					(reference "T22")
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
+					(reference "T30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 100.33 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd0fc00a-bf26-4de8-a2bd-53b887f4b59e")
+		(property "Reference" "#FLG015"
+			(at 100.33 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 100.33 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 100.33 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c267172-5044-4409-9e33-b7ab9d34e679")
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
+					(reference "#FLG015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "falkor-electrical:IF_Power_Input")
+		(at 90.17 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddfbab57-5d74-4d64-acc4-d6c2ab8ae079")
+		(property "Reference" "T28"
+			(at 92.71 26.6699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 90.17 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38bb4c42-f2ff-4529-a9f2-2ecb5b320772")
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
+					(reference "T28")
 					(unit 1)
 				)
 			)
