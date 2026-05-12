@@ -447,7 +447,7 @@
         "uuid": "9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
       }
     ],
-    "used_designators": "ZZ1,J1,#FLG1-17,T1-39,Y1",
+    "used_designators": "J1,#FLG1-14,Q1,Y1,A1-2,T1-32,K1,S1-17,M1-2,G1-2",
     "variants": []
   },
   "sheets": [
@@ -494,6 +494,14 @@
     [
       "69803f14-c382-48bb-abea-83bd565ceb0c",
       "12 Wisselstroom verbruikers"
+    ],
+    [
+      "9aa90bf0-2771-4717-b0c2-2cf85c9ec85e",
+      "31 Motor kern"
+    ],
+    [
+      "113436b5-6a1f-4212-9384-dca55b119f49",
+      "32 Motor sensoren"
     ]
   ],
   "text_variables": {},

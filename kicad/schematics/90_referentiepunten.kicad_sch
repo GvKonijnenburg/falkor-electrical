@@ -9,16 +9,16 @@
 	)
 	(lib_symbols)
 	(no_connect
-		(at 52.07 83.82)
-		(uuid "13a2b331-ec99-4750-b13a-92a896385517")
-	)
-	(no_connect
 		(at 53.34 52.07)
 		(uuid "171b1346-7127-44d8-b471-0e48841d72d6")
 	)
 	(no_connect
 		(at 52.07 73.66)
 		(uuid "44363de7-5780-4e4f-9ffd-88e86d772542")
+	)
+	(no_connect
+		(at 45.72 96.52)
+		(uuid "a9c2bc83-a099-458b-a630-fffa9d7aacfe")
 	)
 	(no_connect
 		(at 52.07 63.5)
@@ -35,17 +35,6 @@
 		)
 		(uuid "3e7d4492-edda-4447-aae2-e0c71d1e7726")
 	)
-	(hierarchical_label "DC_NEG_CHARGE"
-		(shape passive)
-		(at 52.07 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "566657f3-48ab-4955-a96c-341f7a7fda8f")
-	)
 	(hierarchical_label "DC_NEG_START"
 		(shape passive)
 		(at 52.07 63.5 180)
@@ -56,6 +45,17 @@
 			(justify right)
 		)
 		(uuid "79c20a8b-dc5e-4843-bfcb-9bd10a8b0d66")
+	)
+	(hierarchical_label "PE"
+		(shape passive)
+		(at 45.72 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db5a7a9c-57be-4a79-a0b6-57ed96e59d7d")
 	)
 	(hierarchical_label "DC_NEG_ALTN"
 		(shape passive)

@@ -196,7 +196,7 @@
 		)
 	)
 	(bus_entry
-		(at 73.66 45.72)
+		(at 71.12 82.55)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -205,7 +205,7 @@
 		(uuid "009a64f3-0789-43bb-8e16-83520ee2a16c")
 	)
 	(bus_entry
-		(at 71.12 45.72)
+		(at 68.58 82.55)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -214,7 +214,7 @@
 		(uuid "29fb7ccb-f114-4d3d-a62a-076f83bc8f10")
 	)
 	(bus_entry
-		(at 76.2 45.72)
+		(at 73.66 82.55)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -223,7 +223,7 @@
 		(uuid "3e22c64d-900d-4c34-a65a-4a1666641aa7")
 	)
 	(bus_entry
-		(at 73.66 24.13)
+		(at 71.12 60.96)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -232,7 +232,7 @@
 		(uuid "48d66610-1702-4fc3-b10c-345348b5f439")
 	)
 	(bus_entry
-		(at 76.2 24.13)
+		(at 73.66 60.96)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -241,7 +241,7 @@
 		(uuid "955b0447-b79c-4664-884d-f8499ca10f5b")
 	)
 	(bus_entry
-		(at 71.12 24.13)
+		(at 68.58 60.96)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -251,7 +251,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 48.26) (xy 101.6 48.26)
+			(xy 76.2 85.09) (xy 99.06 85.09)
 		)
 		(stroke
 			(width 0)
@@ -261,7 +261,7 @@
 	)
 	(bus
 		(pts
-			(xy 36.83 24.13) (xy 76.2 24.13)
+			(xy 34.29 60.96) (xy 73.66 60.96)
 		)
 		(stroke
 			(width 0)
@@ -271,7 +271,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 54.61) (xy 73.66 48.26)
+			(xy 77.47 91.44) (xy 71.12 85.09)
 		)
 		(stroke
 			(width 0)
@@ -281,7 +281,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 29.21) (xy 101.6 29.21)
+			(xy 76.2 66.04) (xy 99.06 66.04)
 		)
 		(stroke
 			(width 0)
@@ -291,7 +291,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 26.67) (xy 101.6 26.67)
+			(xy 76.2 63.5) (xy 99.06 63.5)
 		)
 		(stroke
 			(width 0)
@@ -301,7 +301,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 33.02) (xy 80.01 33.02)
+			(xy 99.06 69.85) (xy 77.47 69.85)
 		)
 		(stroke
 			(width 0)
@@ -311,7 +311,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 54.61) (xy 80.01 54.61)
+			(xy 99.06 91.44) (xy 77.47 91.44)
 		)
 		(stroke
 			(width 0)
@@ -321,7 +321,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 33.02) (xy 73.66 26.67)
+			(xy 77.47 69.85) (xy 71.12 63.5)
 		)
 		(stroke
 			(width 0)
@@ -331,7 +331,7 @@
 	)
 	(bus
 		(pts
-			(xy 36.83 45.72) (xy 76.2 45.72)
+			(xy 34.29 82.55) (xy 73.66 82.55)
 		)
 		(stroke
 			(width 0)
@@ -341,7 +341,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 50.8) (xy 101.6 50.8)
+			(xy 76.2 87.63) (xy 99.06 87.63)
 		)
 		(stroke
 			(width 0)
@@ -351,7 +351,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 78.74 50.8)
+			(xy 73.66 85.09) (xy 76.2 87.63)
 		)
 		(stroke
 			(width 0)
@@ -361,7 +361,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 26.67) (xy 78.74 29.21)
+			(xy 73.66 63.5) (xy 76.2 66.04)
 		)
 		(stroke
 			(width 0)
@@ -370,7 +370,7 @@
 		(uuid "ca942ee7-9bdd-41c3-9adb-6c3fc646cf92")
 	)
 	(label "AC_OUT_1_L"
-		(at 85.09 26.67 0)
+		(at 82.55 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -380,7 +380,7 @@
 		(uuid "4931d61c-8fb8-4e7b-8a8b-c5ba0f12d3c8")
 	)
 	(label "PE"
-		(at 86.36 54.61 0)
+		(at 83.82 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -390,7 +390,7 @@
 		(uuid "8ea31fd7-0f43-438f-af21-aa2ee39fe4f1")
 	)
 	(label "AC_OUT_2_N"
-		(at 85.09 50.8 0)
+		(at 82.55 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -400,7 +400,7 @@
 		(uuid "ae2c5b01-13c0-4344-8204-3830593a6619")
 	)
 	(label "AC_OUT_1_N"
-		(at 85.09 29.21 0)
+		(at 82.55 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -410,7 +410,7 @@
 		(uuid "c3dcf86e-a221-40a9-8f14-a6ea81e746b3")
 	)
 	(label "AC_OUT_2_L"
-		(at 85.09 48.26 0)
+		(at 82.55 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -420,7 +420,7 @@
 		(uuid "d5cc913a-354e-408f-ae15-3b4c03b89e34")
 	)
 	(label "PE"
-		(at 86.36 33.02 0)
+		(at 83.82 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -431,7 +431,7 @@
 	)
 	(hierarchical_label "{AC_OUT_2}"
 		(shape input)
-		(at 36.83 45.72 180)
+		(at 34.29 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -442,7 +442,7 @@
 	)
 	(hierarchical_label "{AC_OUT_1}"
 		(shape input)
-		(at 36.83 24.13 180)
+		(at 34.29 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -453,7 +453,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 106.68 50.8 90)
+		(at 104.14 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -463,8 +463,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32f204be-68f4-4c7a-ac04-4977029e788b")
-		(property "Reference" "T38"
-			(at 109.22 50.7999 90)
+		(property "Reference" "T13"
+			(at 106.68 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -475,7 +475,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 106.68 50.8 0)
+			(at 104.14 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -485,7 +485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 50.8 0)
+			(at 104.14 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -496,7 +496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 50.8 0)
+			(at 104.14 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -507,7 +507,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 50.8 0)
+			(at 104.14 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -523,7 +523,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/69803f14-c382-48bb-abea-83bd565ceb0c"
-					(reference "T38")
+					(reference "T13")
 					(unit 1)
 				)
 			)
@@ -531,7 +531,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 106.68 29.21 90)
+		(at 104.14 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -541,8 +541,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35e62322-ee35-479b-bb6f-f789251acc9a")
-		(property "Reference" "T35"
-			(at 109.22 29.2099 90)
+		(property "Reference" "T10"
+			(at 106.68 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -553,7 +553,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 106.68 29.21 0)
+			(at 104.14 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -563,7 +563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 29.21 0)
+			(at 104.14 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -574,7 +574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 29.21 0)
+			(at 104.14 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -585,7 +585,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 29.21 0)
+			(at 104.14 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -601,7 +601,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/69803f14-c382-48bb-abea-83bd565ceb0c"
-					(reference "T35")
+					(reference "T10")
 					(unit 1)
 				)
 			)
@@ -609,7 +609,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:IF_Passief")
-		(at 106.68 54.61 90)
+		(at 104.14 91.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -619,8 +619,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3c076b-fa8f-4052-b350-8b3234cc261a")
-		(property "Reference" "T39"
-			(at 109.22 54.6099 90)
+		(property "Reference" "T14"
+			(at 106.68 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -631,7 +631,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 106.68 54.61 0)
+			(at 104.14 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -641,7 +641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 54.61 0)
+			(at 104.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -652,7 +652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 54.61 0)
+			(at 104.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -663,7 +663,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 54.61 0)
+			(at 104.14 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -679,7 +679,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/69803f14-c382-48bb-abea-83bd565ceb0c"
-					(reference "T39")
+					(reference "T14")
 					(unit 1)
 				)
 			)
@@ -687,7 +687,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 106.68 26.67 90)
+		(at 104.14 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -697,8 +697,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98a06805-7a6b-49b7-b7d0-46aa1d0827e0")
-		(property "Reference" "T34"
-			(at 109.22 26.6699 90)
+		(property "Reference" "T9"
+			(at 106.68 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -709,7 +709,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 106.68 26.67 0)
+			(at 104.14 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -719,7 +719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 26.67 0)
+			(at 104.14 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -730,7 +730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 26.67 0)
+			(at 104.14 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -741,7 +741,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 26.67 0)
+			(at 104.14 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -752,12 +752,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "231a9140-f0d4-4da2-b77c-6718f25f4600")
+			(uuid "231a9140-f0d4-4da2-b77c-6718f25f4601")
 		)
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/69803f14-c382-48bb-abea-83bd565ceb0c"
-					(reference "T34")
+					(reference "T9")
 					(unit 1)
 				)
 			)
@@ -765,7 +765,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 106.68 48.26 90)
+		(at 104.14 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -775,8 +775,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa5ac95a-1f4b-4750-8d94-ebfdfb51ca00")
-		(property "Reference" "T37"
-			(at 109.22 48.2599 90)
+		(property "Reference" "T12"
+			(at 106.68 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -787,7 +787,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 106.68 48.26 0)
+			(at 104.14 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -797,7 +797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 48.26 0)
+			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -808,7 +808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 48.26 0)
+			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -819,7 +819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 48.26 0)
+			(at 104.14 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -835,7 +835,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/69803f14-c382-48bb-abea-83bd565ceb0c"
-					(reference "T37")
+					(reference "T12")
 					(unit 1)
 				)
 			)
@@ -843,7 +843,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:IF_Passief")
-		(at 106.68 33.02 90)
+		(at 104.14 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -853,8 +853,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc7c3889-1a8b-42a4-8b2d-8cd08f7926e2")
-		(property "Reference" "T36"
-			(at 109.22 33.0199 90)
+		(property "Reference" "T11"
+			(at 106.68 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -865,7 +865,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 106.68 33.02 0)
+			(at 104.14 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -875,7 +875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 33.02 0)
+			(at 104.14 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -886,7 +886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 33.02 0)
+			(at 104.14 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -897,7 +897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 33.02 0)
+			(at 104.14 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -913,7 +913,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/69803f14-c382-48bb-abea-83bd565ceb0c"
-					(reference "T36")
+					(reference "T11")
 					(unit 1)
 				)
 			)

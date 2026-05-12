@@ -138,117 +138,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "falkor-electrical:Bridge_N2K_VEcan"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "A"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Bridge"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Bridge_N2K_VEcan_1_1"
-				(rectangle
-					(start -5 6.5)
-					(end 5 -6.5)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 194 194 194 0.5019607843)
-					)
-				)
-				(pin passive line
-					(at 8.89 3.81 180)
-					(length 3.81)
-					(name "VE_CAN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -3.81 180)
-					(length 3.81)
-					(name "N2K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "falkor-electrical:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
@@ -474,7 +363,7 @@
 	)
 	(text "Dit domein toont hoe energie- en \ndatapaden in het systeem praktisch \nzijn opgebouwd, voor begrip en \ntroubleshooting"
 		(exclude_from_sim no)
-		(at 127.762 106.68 0)
+		(at 64.008 93.726 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -485,7 +374,7 @@
 	)
 	(text "Dit domein toont referentiepunten\nwaar verschillende netten bewust \naan elkaar worden gekoppeld"
 		(exclude_from_sim no)
-		(at 191.516 98.552 0)
+		(at 191.262 98.298 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -495,28 +384,22 @@
 		(uuid "82452caf-3d1b-452f-aa3c-78baf773e877")
 	)
 	(junction
-		(at 182.88 62.23)
+		(at 177.8 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1b864d9f-8a3f-45a5-839a-481f5ab3fbcc")
-	)
-	(junction
-		(at 109.22 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b441648-3d06-4e6e-82df-54d292801b89")
-	)
-	(junction
-		(at 177.8 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82d2b43b-9582-4d08-abb2-41a94ff865b2")
+		(uuid "1e1e35f9-6e09-412e-b6c0-91b100fe142e")
 	)
 	(junction
 		(at 242.57 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ee1fca2-407c-4fbb-9a44-d55a2e5ca7e7")
+	)
+	(junction
+		(at 114.3 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae14df45-1291-4d19-aad9-932f7ca284e3")
 	)
 	(junction
 		(at 185.42 55.88)
@@ -531,16 +414,10 @@
 		(uuid "c2499264-08a6-471a-8d37-444abd9efd98")
 	)
 	(junction
-		(at 109.22 99.06)
+		(at 177.8 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c6353ac5-9856-4f0f-801e-cc19b60c0f22")
-	)
-	(junction
-		(at 170.18 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fff13e4d-680d-4011-a95e-64fca0739a70")
+		(uuid "c296efda-0327-4176-bea3-ad445e659a09")
 	)
 	(bus_entry
 		(at 46.99 55.88)
@@ -578,6 +455,16 @@
 			(type default)
 		)
 		(uuid "02546472-dcc4-4e34-a231-fdb44898837a")
+	)
+	(wire
+		(pts
+			(xy 123.19 93.98) (xy 190.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a38ee7-7e41-45d2-8280-7b274d83bbff")
 	)
 	(wire
 		(pts
@@ -621,16 +508,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 93.98) (xy 190.5 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18086368-2409-454f-a59f-48efe7de0837")
-	)
-	(wire
-		(pts
 			(xy 228.6 91.44) (xy 242.57 91.44)
 		)
 		(stroke
@@ -638,6 +515,16 @@
 			(type default)
 		)
 		(uuid "190203a2-bfca-4651-9e2b-333b03e32a67")
+	)
+	(wire
+		(pts
+			(xy 177.8 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19eec49e-3f7c-431e-9edb-d266de9c1c7a")
 	)
 	(wire
 		(pts
@@ -711,16 +598,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 71.12) (xy 170.18 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b3cd644-7202-4548-8f7c-d64aafca8e7a")
-	)
-	(wire
-		(pts
 			(xy 29.21 58.42) (xy 49.53 58.42)
 		)
 		(stroke
@@ -741,13 +618,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 62.23) (xy 190.5 62.23)
+			(xy 177.8 114.3) (xy 177.8 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e6dfb7d-ce01-46ee-adda-46b46a5eff59")
+		(uuid "3af1a933-0b3a-4417-af2f-901a5cc7ce42")
 	)
 	(wire
 		(pts
@@ -758,16 +635,6 @@
 			(type default)
 		)
 		(uuid "4cb32b77-7660-4fe9-8857-b663e47f08c2")
-	)
-	(wire
-		(pts
-			(xy 165.1 59.69) (xy 190.5 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cd75e32-ec25-4a10-8b0f-1f9036c7f297")
 	)
 	(wire
 		(pts
@@ -801,6 +668,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 129.54) (xy 127 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7f1ce7-c18f-4d5d-aba7-f1ae1c64ab96")
+	)
+	(wire
+		(pts
 			(xy 228.6 135.89) (xy 243.84 135.89)
 		)
 		(stroke
@@ -808,16 +685,6 @@
 			(type default)
 		)
 		(uuid "5a7f7699-b6d4-4019-84b5-ba33075bb759")
-	)
-	(wire
-		(pts
-			(xy 177.8 76.2) (xy 177.8 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5de58e7b-c564-41a2-993f-c5faa1dbe32a")
 	)
 	(wire
 		(pts
@@ -831,6 +698,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 68.58) (xy 120.65 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff01f17-0ebd-4459-9d16-db1a1c9daee5")
+	)
+	(wire
+		(pts
 			(xy 242.57 57.15) (xy 242.57 91.44)
 		)
 		(stroke
@@ -841,7 +718,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 73.66) (xy 190.5 73.66)
+			(xy 165.1 73.66) (xy 177.8 73.66)
 		)
 		(stroke
 			(width 0)
@@ -861,6 +738,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 68.58) (xy 123.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a093da7-f5d1-430d-a075-37f172f15e11")
+	)
+	(wire
+		(pts
 			(xy 187.96 91.44) (xy 185.42 88.9)
 		)
 		(stroke
@@ -868,16 +755,6 @@
 			(type default)
 		)
 		(uuid "7c47ef38-c931-408a-9f3a-af1d8fdcb28a")
-	)
-	(wire
-		(pts
-			(xy 180.34 73.66) (xy 177.8 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84e694ec-2fc6-4196-9d42-8c6420281261")
 	)
 	(wire
 		(pts
@@ -891,16 +768,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 71.12) (xy 190.5 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "875c2791-c010-4cc1-80ba-21d02df5d4ef")
-	)
-	(wire
-		(pts
 			(xy 228.6 59.69) (xy 243.84 59.69)
 		)
 		(stroke
@@ -908,16 +775,6 @@
 			(type default)
 		)
 		(uuid "8e1de04b-2fdd-45ed-b2f5-3f7995176264")
-	)
-	(wire
-		(pts
-			(xy 167.64 91.44) (xy 170.18 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bc8cf2e-d865-492b-84f1-9434bfcbe440")
 	)
 	(wire
 		(pts
@@ -941,16 +798,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 129.54) (xy 127 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa638975-0bd5-4697-97c9-883612171a62")
-	)
-	(wire
-		(pts
 			(xy 165.1 55.88) (xy 185.42 55.88)
 		)
 		(stroke
@@ -961,13 +808,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 177.8 99.06)
+			(xy 123.19 66.04) (xy 127 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b30bc108-d464-4181-b255-4b68f8151a24")
+		(uuid "b48996ba-f595-47fa-b29e-66e95336c0e3")
 	)
 	(wire
 		(pts
@@ -1001,13 +848,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 99.06) (xy 109.22 99.06)
+			(xy 114.3 116.84) (xy 114.3 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bccaa600-dc25-4f5f-9d7d-0a2c7ae20343")
+		(uuid "bc3d122f-48b8-4a15-a02b-4f435a0878ed")
 	)
 	(bus
 		(pts
@@ -1041,7 +888,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 129.54) (xy 109.22 129.54)
+			(xy 101.6 129.54) (xy 114.3 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1058,16 +905,6 @@
 			(type default)
 		)
 		(uuid "c7e1ad12-38e1-4308-89e9-1906b72a2cce")
-	)
-	(wire
-		(pts
-			(xy 182.88 91.44) (xy 185.42 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c81df7de-6653-4857-bbf8-629713ccf181")
 	)
 	(wire
 		(pts
@@ -1099,6 +936,16 @@
 		)
 		(uuid "cf0bb011-3b0a-466c-9a94-7596f7fec0ca")
 	)
+	(wire
+		(pts
+			(xy 123.19 93.98) (xy 120.65 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf768fe3-18b1-445c-b4c4-7525fbbb4026")
+	)
 	(bus
 		(pts
 			(xy 101.6 62.23) (xy 127 62.23)
@@ -1121,26 +968,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 109.22 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d92d02b5-0b3d-44ae-b4a8-d5b14cb4da4e")
-	)
-	(wire
-		(pts
-			(xy 182.88 62.23) (xy 182.88 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc84e45a-58fc-4159-ac2a-aa9422b74a44")
-	)
-	(wire
-		(pts
 			(xy 185.42 55.88) (xy 185.42 88.9)
 		)
 		(stroke
@@ -1151,23 +978,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 71.12) (xy 170.18 88.9)
+			(xy 116.84 114.3) (xy 114.3 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7bc05df-dc0f-4bba-a3e5-e09c39882bb3")
-	)
-	(wire
-		(pts
-			(xy 165.1 62.23) (xy 182.88 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebce8e55-c12c-4cba-b542-6b2179c0c601")
+		(uuid "eca578a0-3697-4741-8cf2-df2065425eb6")
 	)
 	(wire
 		(pts
@@ -1178,26 +995,6 @@
 			(type default)
 		)
 		(uuid "ee8d8ed4-19f1-4c35-96ff-092fcf9dcc64")
-	)
-	(wire
-		(pts
-			(xy 177.8 99.06) (xy 177.8 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f05c75ee-ea03-4abc-b427-7ad88b0ae718")
-	)
-	(wire
-		(pts
-			(xy 105.41 91.44) (xy 167.64 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0ee0501-3e52-4814-83ad-a8dbbeae50e6")
 	)
 	(wire
 		(pts
@@ -1218,6 +1015,26 @@
 			(type default)
 		)
 		(uuid "f3a700c7-6120-4790-ae0b-6e6f0be7cf06")
+	)
+	(wire
+		(pts
+			(xy 177.8 73.66) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7751098-b52e-45fc-b781-803499b90bbe")
+	)
+	(wire
+		(pts
+			(xy 116.84 114.3) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9956c6e-592e-4d7c-ac63-71666e8d1309")
 	)
 	(label "AC_SHORE_N"
 		(at 34.29 58.42 0)
@@ -1271,7 +1088,7 @@
 				)
 			)
 		)
-		(property "Value" "Walstroomaansluiting"
+		(property "Value" "Conn_01x03_Pin"
 			(at 24.765 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1344,7 +1161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "637d7659-46c6-4ffd-bdf2-678accf7823a")
-		(property "Reference" "Y1"
+		(property "Reference" "AE1"
 			(at 213.36 29.8449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1355,7 +1172,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RF Antenne"
+		(property "Value" "Antenna"
 			(at 213.36 32.3849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1405,87 +1222,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "falkor-electrical:Bridge_N2K_VEcan")
-		(at 96.52 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9bdeb4f-8b7d-4a32-b1d8-9a06e6f1b3c1")
-		(property "Reference" "ZZ1"
-			(at 96.52 85.852 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Bridge"
-			(at 96.52 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "db7d3172-a2a4-4b20-be38-cb379af8b0a1")
-		)
-		(pin "1"
-			(uuid "4ede4c2e-f065-46ec-b72a-1956f8a38b5f")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
-					(reference "ZZ1")
+					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -1647,18 +1384,8 @@
 				(justify right)
 			)
 		)
-		(pin "DC_NEG_CHARGE" passive
-			(at 190.5 91.44 180)
-			(uuid "7bfdf66b-f398-47b3-80e0-d88b3c144395")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "DC_NEG_HOUSE" passive
-			(at 190.5 93.98 180)
+			(at 190.5 91.44 180)
 			(uuid "3d6a40ed-9222-4fc9-b192-85b3fb048c1d")
 			(effects
 				(font
@@ -1677,6 +1404,16 @@
 				(justify right)
 			)
 		)
+		(pin "PE" passive
+			(at 190.5 93.98 180)
+			(uuid "114e71fa-31e5-42cb-b472-4a16fd92db7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7"
@@ -1686,7 +1423,7 @@
 		)
 	)
 	(sheet
-		(at 127 101.6)
+		(at 63.5 88.9)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1702,7 +1439,7 @@
 		)
 		(uuid "67c2b1e8-3e93-4428-8c84-8880ab1a510c")
 		(property "Sheetname" "60 Systeem infrastructuur"
-			(at 127 100.8376 0)
+			(at 63.5 88.1376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1713,7 +1450,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/60_systeem_infrastructuur.kicad_sch"
-			(at 127 114.9354 0)
+			(at 63.5 102.2354 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1828,7 +1565,7 @@
 				(justify left top)
 			)
 		)
-		(pin "{AC_SHORE}" output
+		(pin "{AC_SHORE}" input
 			(at 63.5 53.34 180)
 			(uuid "a698c99f-1de6-41b6-85dd-8bbf5657239d")
 			(effects
@@ -1970,7 +1707,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "15_energieconversie.kicad_sch"
+		(property "Sheetfile" "schematics/15_energieconversie.kicad_sch"
 			(at 127 76.7846 0)
 			(hide yes)
 			(show_name no)
@@ -1982,7 +1719,7 @@
 				(justify left top)
 			)
 		)
-		(pin "DC_NEG_CHARGE" output
+		(pin "DC_NEG_HOUSE" bidirectional
 			(at 165.1 55.88 0)
 			(uuid "37c7bdf8-f805-4361-8e53-4c14c607e76e")
 			(effects
@@ -1992,29 +1729,9 @@
 				(justify right)
 			)
 		)
-		(pin "DC_NEG_HOUSE" input
-			(at 165.1 62.23 0)
-			(uuid "53fa95ce-3ce9-498e-a46f-d18091612a65")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_POS_CHARGE" output
+		(pin "DC_POS_HOUSE" bidirectional
 			(at 165.1 53.34 0)
 			(uuid "88694151-0098-4c9e-b3d7-8499c1532904")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_POS_HOUSE" input
-			(at 165.1 59.69 0)
-			(uuid "bbab5c8d-5cb9-46b4-9f3f-b9741779dff8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,14 +1769,24 @@
 				(justify left)
 			)
 		)
-		(pin "VE_CAN" passive
-			(at 165.1 71.12 0)
+		(pin "N2K" passive
+			(at 165.1 73.66 0)
 			(uuid "56bafc96-a7b4-43f7-ab5b-4c5a9376250b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "PE" passive
+			(at 127 66.04 180)
+			(uuid "23f4481d-5fb2-4f57-a67c-a2abce50b42f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2119,19 +1846,9 @@
 				(justify right)
 			)
 		)
-		(pin "DC_NEG_CHARGE" input
+		(pin "DC_NEG_HOUSE" bidirectional
 			(at 190.5 55.88 180)
 			(uuid "ac768491-6418-4501-9560-449612ad10c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DC_NEG_HOUSE" output
-			(at 190.5 62.23 180)
-			(uuid "74e99f33-6242-41a1-85f0-4818cec2c24f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,29 +1906,9 @@
 				(justify right)
 			)
 		)
-		(pin "VE_CAN" passive
-			(at 190.5 71.12 180)
-			(uuid "c6c5b25f-0f54-4e6e-875e-808ed9167e65")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DC_POS_CHARGE" input
+		(pin "DC_POS_HOUSE" bidirectional
 			(at 190.5 53.34 180)
 			(uuid "dedece34-781b-465d-8627-639998888c47")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DC_POS_HOUSE" output
-			(at 190.5 59.69 180)
-			(uuid "5c38f18b-1c77-4402-acac-8269904b0902")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2,20 +2,20 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "c12264a0-bf4c-4d6b-b4f0-3cfac17cf435")
+	(uuid "6ba08ced-c008-4d45-9a8f-0a862191f4ae")
 	(paper "A4")
 	(title_block
 		(company "Gerard van Konijnenburg")
 	)
 	(lib_symbols
-		(symbol "falkor-electrical:CircuitBreaker_2P"
+		(symbol "falkor-electrical:Relay_SPST-NO"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 3.81 0 0)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,8 +25,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CircuitBreaker_2P"
-				(at 3.81 2.54 0)
+			(property "Value" "Relay_SPST-NO"
+				(at 11.43 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -37,7 +37,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -2.54 0 0)
+				(at 11.43 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -45,20 +45,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Datasheet" ""
-				(at -2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Double pole circuit breaker"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -69,70 +59,43 @@
 					)
 				)
 			)
-			(symbol "CircuitBreaker_2P_0_1"
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "Description" "Relay SPST, normally open, EN50005"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -5.08 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			)
+			(property "ki_keywords" "1P1T 1-Form-A single pole throw NO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			)
+			(property "ki_fp_filters" "Relay?SPST*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
+			)
+			(symbol "Relay_SPST-NO_0_0"
 				(polyline
 					(pts
-						(xy 2.54 -5.08) (xy 2.54 -3.81)
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
 					)
 					(stroke
 						(width 0)
@@ -143,10 +106,33 @@
 					)
 				)
 			)
-			(symbol "CircuitBreaker_2P_1_1"
+			(symbol "Relay_SPST-NO_0_1"
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -3.175 4.445) (xy -1.905 3.175)
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
 					)
 					(stroke
 						(width 0)
@@ -158,7 +144,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 5.08) (xy -2.54 3.81)
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
 					)
 					(stroke
 						(width 0)
@@ -170,7 +156,79 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -3.81) (xy -2.54 -5.08)
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -180,56 +238,22 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.905 4.445) (xy -3.175 3.175)
-					)
+			)
+			(symbol "Relay_SPST-NO_1_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 4.445) (xy 3.175 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 4.445) (xy 1.905 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type color)
+						(color 194 194 194 0.5019607843)
 					)
 				)
 				(pin power_in line
-					(at -2.54 -7.62 90)
+					(at 5.08 -7.62 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -238,25 +262,7 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -265,7 +271,7 @@
 					)
 				)
 				(pin power_out line
-					(at -2.54 7.62 270)
+					(at 7.62 7.62 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -274,7 +280,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -282,8 +288,8 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 2.54 7.62 270)
+				(pin passive line
+					(at -5.08 7.62 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -292,7 +298,25 @@
 							)
 						)
 					)
-					(number "4"
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -303,14 +327,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "falkor-electrical:galvanic_isolator"
+		(symbol "falkor-electrical:dynamo"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "A"
-				(at 0 6.604 0)
+			(property "Reference" "G"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -319,8 +343,8 @@
 					)
 				)
 			)
-			(property "Value" "Galvanische Isolator"
-				(at 0 3.302 0)
+			(property "Value" "Dynamo"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -362,10 +386,10 @@
 					)
 				)
 			)
-			(symbol "galvanic_isolator_1_1"
-				(rectangle
-					(start -17.7 5.5)
-					(end 17.7 -5.5)
+			(symbol "dynamo_1_1"
+				(circle
+					(center 0 0)
+					(radius 8.8233)
 					(stroke
 						(width 0)
 						(type solid)
@@ -375,10 +399,20 @@
 						(color 194 194 194 0.5019607843)
 					)
 				)
-				(pin passive line
-					(at -20.32 0 0)
+				(text "G"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 10 10)
+							(thickness 1.2)
+							(bold yes)
+						)
+					)
+				)
+				(pin power_out line
+					(at -11.43 0 0)
 					(length 2.54)
-					(name "PE_SHORE"
+					(name "B+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -393,10 +427,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 20.32 0 180)
+				(pin power_out line
+					(at 11.43 0 180)
 					(length 2.54)
-					(name "PE_IN"
+					(name "D-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -411,36 +445,63 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -2.54 -11.43 90)
+					(length 2.921)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -11.43 90)
+					(length 2.921)
+					(name "W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+		(symbol "falkor-electrical:startmotor"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
+			(property "Reference" "M"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
+			(property "Value" "Startmotor"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -471,7 +532,7 @@
 					)
 				)
 			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -482,22 +543,33 @@
 					)
 				)
 			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "startmotor_1_1"
+				(circle
+					(center 0 0)
+					(radius 8.8233)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 194 194 194 0.5019607843)
 					)
 				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
+				(text "M"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 10 10)
+							(thickness 1.2)
+							(bold yes)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "DC+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -512,315 +584,360 @@
 						)
 					)
 				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+				(pin power_in line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "DC-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
 			(embedded_fonts no)
 		)
 	)
+	(text "Controleren of huidige dynamo\nFalkor deze aansluiting heeft"
+		(exclude_from_sim no)
+		(at 98.298 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20657571-2c76-4b3d-9d80-bf43ee79a914")
+	)
+	(text "Mechanisch verbonden via motorblok\nnaar ENG_CASE (zie 90 referenties)"
+		(exclude_from_sim no)
+		(at 105.918 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8a7d771-f6a2-440c-9106-bb27acb755c2")
+	)
+	(text "Niet aangesloten, DC-DC lader signaleert\nzelf of dynamo laadstroom afgeeft"
+		(exclude_from_sim no)
+		(at 100.584 117.348 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab41853f-b7bf-4ca5-a542-9ee624c81213")
+	)
+	(text "Mechanisch verbonden via motorblok\nnaar ENG_CASE (zie 90 referenties)"
+		(exclude_from_sim no)
+		(at 145.796 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d762f3c0-e708-45c5-87a4-9a79b4e00d6c")
+	)
 	(junction
-		(at 113.03 40.64)
+		(at 124.46 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "07305dd7-0887-4f35-803f-f806898fb936")
+		(uuid "c90b499e-3b18-4635-9ded-fac70081bb40")
 	)
-	(junction
-		(at 113.03 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97c0c318-cbee-4c47-a479-284b53fa8266")
+	(no_connect
+		(at 127 105.41)
+		(uuid "1c4fb351-a49a-47b2-9085-3746ed37b834")
 	)
-	(bus_entry
-		(at 170.18 40.64)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "046b82b1-5c90-495e-b012-44311d0cf637")
-	)
-	(bus_entry
-		(at 86.36 38.1)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a564bc-5c7a-4b6f-acab-348514ab6929")
-	)
-	(bus_entry
-		(at 165.1 40.64)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43c668f7-99b4-45a6-bff2-37c4447026c2")
-	)
-	(bus_entry
-		(at 69.85 38.1)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d70a82e-4d3e-4ee4-aa43-48e0a65fa6f5")
-	)
-	(bus_entry
-		(at 91.44 38.1)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ba38b6d-4181-41b9-9430-0b35a40012fd")
-	)
-	(bus_entry
-		(at 186.69 40.64)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a15a7025-8ad7-4b8d-9e12-cc730d7b2cf1")
+	(no_connect
+		(at 127 114.3)
+		(uuid "61437a76-0254-4c67-a3e9-1728b449e933")
 	)
 	(wire
 		(pts
-			(xy 113.03 40.64) (xy 121.92 40.64)
+			(xy 124.46 36.83) (xy 121.92 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04145821-4efd-48b3-8336-7efc7f0df10c")
+		(uuid "0d8bb63d-749f-4dd4-be01-7f9ce9e26451")
 	)
 	(wire
 		(pts
-			(xy 165.1 62.23) (xy 186.69 40.64)
+			(xy 80.01 105.41) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "210fcbe9-f4f5-4763-a233-7a6d2bde50f3")
+		(uuid "17c1f915-1938-482f-821a-6bc2acec918e")
 	)
 	(wire
 		(pts
-			(xy 137.16 40.64) (xy 165.1 40.64)
+			(xy 82.55 39.37) (xy 86.36 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22cb946c-a910-4178-ac8f-bbee550adcd0")
-	)
-	(bus
-		(pts
-			(xy 196.85 38.1) (xy 167.64 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc5fc39-1d8b-46ac-99a8-2b306786bbd6")
+		(uuid "24656c79-7415-4c14-997b-c0eceba47ffa")
 	)
 	(wire
 		(pts
-			(xy 93.98 40.64) (xy 113.03 40.64)
+			(xy 91.44 34.29) (xy 121.92 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6af63c35-781e-45e1-a4c0-f8e9c615782a")
+		(uuid "2d10023a-585f-4af6-b076-0e3af38ccebb")
 	)
 	(wire
 		(pts
-			(xy 137.16 45.72) (xy 165.1 45.72)
+			(xy 52.07 88.9) (xy 63.5 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87650f0d-6fb2-4a25-86bc-e96499855e83")
+		(uuid "2f31ae31-a68f-4b0d-abba-4e1ba105491c")
 	)
 	(wire
 		(pts
-			(xy 88.9 40.64) (xy 93.98 45.72)
+			(xy 124.46 43.18) (xy 165.1 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e62dbcb-b39b-41c7-8da1-40b45eb7f4f4")
+		(uuid "516c4248-6ac6-40e6-95d5-57c045e68c20")
 	)
 	(wire
 		(pts
-			(xy 72.39 40.64) (xy 93.98 62.23)
+			(xy 86.36 39.37) (xy 91.44 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ff7b043-9974-45a0-8552-06c88b81b3e1")
-	)
-	(bus
-		(pts
-			(xy 64.77 38.1) (xy 91.44 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a526093a-6349-49fa-a744-df3cee6c044f")
+		(uuid "52ffef7e-bec3-4c28-b5f7-e960ec06c751")
 	)
 	(wire
 		(pts
-			(xy 113.03 45.72) (xy 121.92 45.72)
+			(xy 72.39 111.76) (xy 74.93 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0aa4e0f-e71d-47d5-9a6f-46bb690b2ff8")
+		(uuid "58eecc54-9f93-4016-aafd-e4c8d533759a")
 	)
 	(wire
 		(pts
-			(xy 165.1 45.72) (xy 170.18 40.64)
+			(xy 72.39 100.33) (xy 72.39 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3b958df-4844-45dd-a304-7ec36279c43a")
+		(uuid "60f5b631-883b-48e5-8bc1-db5801f31bea")
 	)
 	(wire
 		(pts
-			(xy 93.98 45.72) (xy 113.03 45.72)
+			(xy 121.92 52.07) (xy 124.46 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d066662d-7b8a-42c3-90ad-060d090f9b62")
+		(uuid "6b237535-cdca-44bf-bd65-c13d02ffc8cf")
 	)
 	(wire
 		(pts
-			(xy 151.13 62.23) (xy 165.1 62.23)
+			(xy 82.55 52.07) (xy 88.9 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d73e1698-0202-4206-870c-49a7b0f0b890")
+		(uuid "71557996-d388-4d69-b7f1-122a5bfd158f")
 	)
 	(wire
 		(pts
-			(xy 93.98 62.23) (xy 110.49 62.23)
+			(xy 74.93 114.3) (xy 127 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df391d60-6d89-449b-b483-54b95413979e")
+		(uuid "84da3e49-a8f2-4071-b7e2-1418d77b7323")
 	)
-	(label "AC_IN_L"
-		(at 152.4 40.64 0)
+	(wire
+		(pts
+			(xy 111.76 52.07) (xy 121.92 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92bd0202-3a2e-478b-aee3-ab4f0abbb1e9")
+	)
+	(wire
+		(pts
+			(xy 86.36 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ea0312-d1c4-451d-9d00-d970b1beba7c")
+	)
+	(wire
+		(pts
+			(xy 52.07 39.37) (xy 67.31 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c408f05c-4b1a-43e7-9a8b-9116f44df347")
+	)
+	(wire
+		(pts
+			(xy 77.47 102.87) (xy 80.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5bd8647-cd1a-411f-a8b5-cba8fd16e284")
+	)
+	(wire
+		(pts
+			(xy 124.46 36.83) (xy 124.46 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c933647c-9bdd-4e40-8584-5d14261efbe1")
+	)
+	(wire
+		(pts
+			(xy 124.46 43.18) (xy 124.46 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b44a33-85fe-42ca-b3f4-687f536d0f0d")
+	)
+	(wire
+		(pts
+			(xy 77.47 100.33) (xy 77.47 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2a9f54-9d29-425b-9102-c5c5bc32cea9")
+	)
+	(wire
+		(pts
+			(xy 52.07 49.53) (xy 67.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe94a247-6021-4d0f-a9cd-683be78cd2de")
+	)
+	(label "SIG_ALT_RPM"
+		(at 88.9 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4cc2bd47-ee2c-4cee-bdae-8544e81fa037")
+		(uuid "899bd0a2-a033-4e2d-97bd-1ce1b9172ea6")
 	)
-	(label "AC_SHORE_PE"
-		(at 95.25 62.23 0)
+	(label "SIG_ALT_ACTIVE"
+		(at 88.9 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "790ec915-6580-481e-9733-5f090de4b244")
+		(uuid "f1936d48-5188-408a-a92a-b99a8191334a")
 	)
-	(label "AC_SHORE_L"
-		(at 95.25 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9994f7b3-f8b5-4dbf-8c56-7f1289359c60")
-	)
-	(label "AC_SHORE_N"
-		(at 95.25 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a623ab31-1b8e-4687-9897-19447b201807")
-	)
-	(label "AC_IN_N"
-		(at 152.4 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b547b743-81df-4b02-b448-e3c14861a449")
-	)
-	(label "PE"
-		(at 152.4 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d00ad51b-694a-405d-8a39-645e9df66edc")
-	)
-	(hierarchical_label "{AC_IN}"
-		(shape output)
-		(at 196.85 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "71cc0eb7-0c0d-4dbf-80c7-367a35cf454c")
-	)
-	(hierarchical_label "{AC_SHORE}"
+	(hierarchical_label "DC_POS_START"
 		(shape input)
-		(at 64.77 38.1 180)
+		(at 52.07 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d3fab589-df98-4b9a-bfa2-deec8ca24058")
+		(uuid "2fecaf64-8a94-4983-a8bb-e49d9b33f452")
+	)
+	(hierarchical_label "DC_NEG_START"
+		(shape input)
+		(at 165.1 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64df1988-9d0f-4e45-84e6-c0639e6418ad")
+	)
+	(hierarchical_label "DC_POS_ALT"
+		(shape output)
+		(at 52.07 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81cd56b7-9465-4f62-a48c-44a2e1330c61")
+	)
+	(hierarchical_label "DC_NEG_ALT"
+		(shape output)
+		(at 127 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9012d4b-31c7-4f0f-8ca5-95f004a0f895")
+	)
+	(hierarchical_label "SIG_ENG_START"
+		(shape input)
+		(at 52.07 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c20e59db-7ada-47df-9605-da4f92626cbd")
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 113.03 45.72 180)
+		(lib_id "falkor-electrical:startmotor")
+		(at 100.33 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -829,10 +946,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "122cbdbe-1f2f-4965-94ed-d4c4901c8dc4")
-		(property "Reference" "#FLG4"
-			(at 113.03 47.625 0)
-			(hide yes)
+		(uuid "136a20d5-e095-4032-950e-fccf1791cc2a")
+		(property "Reference" "M1"
+			(at 100.33 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -841,8 +957,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR FLAG"
-			(at 113.03 50.8 0)
+		(property "Value" "Startmotor"
+			(at 100.33 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -852,7 +968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 45.72 0)
+			(at 100.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -863,7 +979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 45.72 0)
+			(at 100.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -873,85 +989,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 113.03 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e0c2e4c-9673-4558-a191-3d15e29658f1")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
-					(reference "#FLG4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "falkor-electrical:galvanic_isolator")
-		(at 130.81 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98084a6d-a9c5-4f6a-aceb-2acf5a8c854b")
-		(property "Reference" "A2"
-			(at 130.81 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Galvanische Isolator"
-			(at 130.81 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Victron VDI-16"
-			(at 130.81 62.23 0)
+		(property "Description" ""
+			(at 100.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -962,23 +1001,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "6ccbb4bd-7b8d-4217-884c-5be3add309e8")
+			(uuid "26c6bc62-13d4-4325-9ddb-0076e285c7d7")
 		)
 		(pin "1"
-			(uuid "809e6089-9d99-4967-b6ea-b18ae524b7c5")
+			(uuid "846160b2-9136-4537-bbce-900c4161e171")
 		)
 		(instances
 			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
-					(reference "A2")
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/13c187e7-31a7-4196-98a6-1bea17f9214f/9aa90bf0-2771-4717-b0c2-2cf85c9ec85e"
+					(reference "M1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 113.03 40.64 0)
+		(lib_id "falkor-electrical:dynamo")
+		(at 74.93 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -987,10 +1026,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f5a142bf-1935-4a49-a159-24c54487d7da")
-		(property "Reference" "#FLG3"
-			(at 113.03 38.735 0)
-			(hide yes)
+		(uuid "b3879987-5a6f-413f-9c65-bd6179afd01d")
+		(property "Reference" "G1"
+			(at 74.93 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -999,8 +1037,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR FLAG"
-			(at 113.03 35.56 0)
+		(property "Value" "Dynamo"
+			(at 74.93 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1010,7 +1048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 40.64 0)
+			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1021,7 +1059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 40.64 0)
+			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1031,85 +1069,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 113.03 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e0c2e4c-9673-4558-a191-3d15e29658f1")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
-					(reference "#FLG3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "falkor-electrical:CircuitBreaker_2P")
-		(at 129.54 43.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7ab898f-694f-4add-90c0-cadbe3637fd4")
-		(property "Reference" "Q1"
-			(at 129.54 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CircuitBreaker_2P"
-			(at 129.54 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Double pole circuit breaker"
-			(at 129.54 43.18 0)
+		(property "Description" ""
+			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1120,21 +1081,108 @@
 			)
 		)
 		(pin "1"
-			(uuid "15e01033-6ce0-4938-adab-828f0eb39266")
+			(uuid "b41ac701-3eb4-4a78-98f4-3723cbb65ca2")
 		)
 		(pin "2"
-			(uuid "bc78f2dc-f273-4d9a-8201-4ff1bfb0cd8a")
-		)
-		(pin "3"
-			(uuid "0ab913e7-c6e5-4498-829c-96a13fc12e54")
+			(uuid "a867ead6-fb2a-4bd4-9ed0-f6414dc4ce0c")
 		)
 		(pin "4"
-			(uuid "d3c782d0-48c4-4e10-b890-56282c2131c6")
+			(uuid "e67efd82-6526-4498-a30b-ba97d05b04d4")
+		)
+		(pin "3"
+			(uuid "5599454e-ca24-4a7b-aefb-866e29b8f918")
 		)
 		(instances
 			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
-					(reference "Q1")
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/13c187e7-31a7-4196-98a6-1bea17f9214f/9aa90bf0-2771-4717-b0c2-2cf85c9ec85e"
+					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "falkor-electrical:Relay_SPST-NO")
+		(at 74.93 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0a7ccf6-4f29-4657-b71d-e88af2904777")
+		(property "Reference" "K1"
+			(at 74.93 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Relay_SPST-NO"
+			(at 74.93 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at 74.93 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "c5b3e02d-74ca-46ca-b5d5-1512c17c8849")
+		)
+		(pin "A2"
+			(uuid "91983786-23da-4898-a0c2-a007f3236fd1")
+		)
+		(pin "A1"
+			(uuid "a691c301-abf8-45fa-a079-c1b45442e8ee")
+		)
+		(pin "13"
+			(uuid "ad3724d5-4345-44f0-aa4f-8c5a0176f91e")
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/13c187e7-31a7-4196-98a6-1bea17f9214f/9aa90bf0-2771-4717-b0c2-2cf85c9ec85e"
+					(reference "K1")
 					(unit 1)
 				)
 			)
