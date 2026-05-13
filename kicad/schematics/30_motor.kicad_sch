@@ -136,7 +136,7 @@
 	)
 	(sheet
 		(at 88.9 63.5)
-		(size 38.1 25.4)
+		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -151,7 +151,7 @@
 		)
 		(uuid "113436b5-6a1f-4212-9384-dca55b119f49")
 		(property "Sheetname" "32 Motor sensoren"
-			(at 88.9 62.7884 0)
+			(at 88.9 62.7376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -162,7 +162,7 @@
 			)
 		)
 		(property "Sheetfile" "32_motor_sensoren.kicad_sch"
-			(at 88.9 89.4846 0)
+			(at 88.9 76.8354 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -193,7 +193,7 @@
 	)
 	(sheet
 		(at 88.9 25.4)
-		(size 38.1 25.4)
+		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -208,7 +208,7 @@
 		)
 		(uuid "9aa90bf0-2771-4717-b0c2-2cf85c9ec85e")
 		(property "Sheetname" "31 Motor kern"
-			(at 88.9 24.6884 0)
+			(at 88.9 24.6376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -219,7 +219,7 @@
 			)
 		)
 		(property "Sheetfile" "31_motor_kern.kicad_sch"
-			(at 88.9 51.3846 0)
+			(at 88.9 38.7354 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

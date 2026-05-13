@@ -477,7 +477,7 @@
 		)
 		(uuid "67bc46f5-430d-467d-8e8a-43d1f2a643a5")
 	)
-	(hierarchical_label "DC_NEG_ALTN"
+	(hierarchical_label "DC_NEG_ALTERNATOR"
 		(shape input)
 		(at 45.72 55.88 180)
 		(effects
@@ -499,7 +499,7 @@
 		)
 		(uuid "b7a4a30b-25be-49cd-9be0-ffc5c1ee9ef4")
 	)
-	(hierarchical_label "DC_POS_ALTN"
+	(hierarchical_label "DC_POS_ALTERNATOR"
 		(shape input)
 		(at 101.6 53.34 180)
 		(effects
@@ -1286,6 +1286,123 @@
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
 					(reference "T6")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 38.1)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "36a4f179-afa0-4b2a-b5fe-e200e8922b15")
+		(property "Sheetname" "21 Laden, opslag & distributie"
+			(at 127 37.3376 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "21_laden_opslag_distributie.kicad_sch"
+			(at 127 64.1354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC_NEG_COMFORT" output
+			(at 177.8 58.42 0)
+			(uuid "ea331fa3-c4a9-45a7-a823-7da070007b94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_NEG_ESSENTIAL" output
+			(at 177.8 43.18 0)
+			(uuid "82d1b935-9767-4072-a1af-0bf430441d3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_NEG_HOUSE" bidirectional
+			(at 127 58.42 180)
+			(uuid "95fa775d-98b0-46c0-a52a-c06f6a847a90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_POS_COMFORT" output
+			(at 177.8 55.88 0)
+			(uuid "b3ede3a4-1487-4a92-aa9d-d9eef659a654")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_POS_ESSENTIAL" output
+			(at 177.8 40.64 0)
+			(uuid "f81bcadb-1f8d-4015-8eb7-3ba67630d93b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_NEG_CHARGER_INVERTER" bidirectional
+			(at 127 43.18 180)
+			(uuid "490db36b-5210-414c-a22c-d552999ba957")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_POS_CHARGER_INVERTER" bidirectional
+			(at 127 40.64 180)
+			(uuid "55f2dbd9-f4b3-422f-a0e9-34ddf9439e9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
+					(page "14")
 				)
 			)
 		)

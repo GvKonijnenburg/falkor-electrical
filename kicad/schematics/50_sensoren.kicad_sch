@@ -8,6 +8,133 @@
 		(company "Gerard van Konijnenburg")
 	)
 	(lib_symbols
+		(symbol "Device:Antenna"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "falkor-electrical:sensor_n2k"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -103,441 +230,641 @@
 		)
 	)
 	(junction
-		(at 69.85 54.61)
+		(at 215.9 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27d0a050-64dc-4574-9ffc-90bbce001f9c")
+		(uuid "1b571edd-bfe5-4245-81f2-570635704e91")
 	)
 	(junction
-		(at 120.65 38.1)
+		(at 152.4 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "39bfa75e-00b9-4de0-83bc-91deb21b0da2")
+		(uuid "1ebeaaef-149a-4f54-b927-18d42e6c06e1")
 	)
 	(junction
-		(at 69.85 38.1)
+		(at 190.5 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "54401d0f-bdaf-41ba-9b10-5fb9e592b649")
+		(uuid "26406ca0-3068-4f41-ae22-0c289a156381")
 	)
 	(junction
-		(at 69.85 72.39)
+		(at 152.4 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8fa1a557-bcd5-4467-9721-28a5ca6a1667")
+		(uuid "3976f961-2450-41ea-b1b1-511dc2fabfbf")
 	)
 	(junction
-		(at 171.45 54.61)
+		(at 114.3 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "97ab4191-f05b-4b4b-a6be-d8be20d0389a")
+		(uuid "3f51ab19-e027-46a3-a649-06eaab4e001f")
 	)
 	(junction
-		(at 171.45 92.71)
+		(at 203.2 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c54ae92e-fc74-470d-8056-7e52d71b823c")
+		(uuid "61a0ed31-29ec-41c5-8024-2d1cecf76459")
 	)
 	(junction
-		(at 120.65 92.71)
+		(at 114.3 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd2d8157-af8c-4367-a3f5-f1bc6a100df8")
+		(uuid "702efec8-63cb-4e9b-8a1d-740031e8e869")
 	)
 	(junction
-		(at 120.65 72.39)
+		(at 152.4 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4141738-7aa7-4e24-afe5-4ca83f102269")
+		(uuid "97f93ff4-9762-4e5c-a6cc-8869684fed48")
 	)
 	(junction
-		(at 69.85 92.71)
+		(at 190.5 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eead6101-df0e-4634-920e-70d53f62d8ff")
+		(uuid "b3bb1afc-0abd-44c1-a607-9a4e9e30e40e")
 	)
 	(junction
-		(at 120.65 54.61)
+		(at 114.3 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f721f0cd-4038-402d-ae92-6757afcbd938")
+		(uuid "d90cf1ae-1c3e-4ddf-b051-f76f745203aa")
 	)
 	(junction
-		(at 171.45 38.1)
+		(at 190.5 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc20b948-d5eb-474b-8382-8a781835cebf")
+		(uuid "dba1d6e5-39e5-4d40-a46d-7069255e1384")
 	)
 	(junction
-		(at 171.45 72.39)
+		(at 76.2 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fd6f26e4-98c9-4318-a655-0e70ee0154e8")
+		(uuid "f03b82d8-855b-4714-bb08-8bba6b1fc07d")
 	)
 	(wire
 		(pts
-			(xy 69.85 92.71) (xy 69.85 107.95)
+			(xy 114.3 76.2) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02c70f04-c43b-4695-89b1-5bc05741a10b")
+		(uuid "022e80b4-1949-4dd1-800a-638d70285f8a")
 	)
 	(wire
 		(pts
-			(xy 104.14 92.71) (xy 120.65 92.71)
+			(xy 152.4 76.2) (xy 190.5 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d3ada28-15cc-4ad1-80f9-9f6d9ee1e648")
+		(uuid "028b4612-37ed-48dd-b9a6-3a1ad6cb063a")
 	)
 	(wire
 		(pts
-			(xy 120.65 92.71) (xy 120.65 107.95)
+			(xy 190.5 50.8) (xy 190.5 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15e6495f-1750-4f91-8d67-7220867477f8")
+		(uuid "0827d27f-a17a-4d2a-9148-544408d4e53d")
 	)
 	(wire
 		(pts
-			(xy 104.14 72.39) (xy 120.65 72.39)
+			(xy 190.5 109.22) (xy 213.36 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "174cfebe-8e5e-46d9-9898-2f36f1126fc6")
+		(uuid "0c21f4c9-d2f5-44fe-8c0d-03ab7d8ac597")
 	)
 	(wire
 		(pts
-			(xy 220.98 54.61) (xy 223.52 52.07)
+			(xy 180.34 67.31) (xy 187.96 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b2481b4-c490-4f7f-ab20-e2dc57fba0ed")
+		(uuid "131c0345-818d-47fe-a9a5-1979fc0d7a55")
 	)
 	(wire
 		(pts
-			(xy 120.65 38.1) (xy 171.45 38.1)
+			(xy 76.2 50.8) (xy 114.3 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f651212-99aa-4351-9cec-a3ce69115719")
+		(uuid "14741ba6-ddf5-4d18-a9a4-a14a5726aef6")
 	)
 	(wire
 		(pts
-			(xy 69.85 54.61) (xy 69.85 72.39)
+			(xy 114.3 50.8) (xy 152.4 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2729152f-e38e-4261-9817-e491896a0a25")
+		(uuid "274a60d4-4898-4fae-846e-326c0708b03a")
 	)
 	(wire
 		(pts
-			(xy 53.34 72.39) (xy 69.85 72.39)
+			(xy 190.5 76.2) (xy 190.5 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3746f37a-66ad-497d-a170-7bbc224c8f85")
+		(uuid "2a07dcf9-e0f8-4040-b7b5-0a6a86426eda")
 	)
 	(wire
 		(pts
-			(xy 168.91 110.49) (xy 171.45 107.95)
+			(xy 152.4 109.22) (xy 190.5 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4362f80f-a89a-4636-9c6a-9e70008dcca5")
+		(uuid "2e070218-7ebc-402c-80e7-5465e76d35f6")
 	)
 	(wire
 		(pts
-			(xy 120.65 72.39) (xy 120.65 92.71)
+			(xy 152.4 109.22) (xy 152.4 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "520b6027-f1e5-41e9-a7b5-5c02606d1aae")
+		(uuid "2fd88bfb-2e59-4de2-b3dd-20de3c11b875")
 	)
 	(wire
 		(pts
-			(xy 53.34 54.61) (xy 69.85 54.61)
+			(xy 149.86 67.31) (xy 152.4 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bc5a97f-b81c-4b21-8366-d461b1df63e9")
+		(uuid "3271c0ab-0a1b-4b83-ba57-2003591baf47")
 	)
 	(wire
 		(pts
-			(xy 154.94 110.49) (xy 168.91 110.49)
+			(xy 190.5 50.8) (xy 203.2 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cca456f-60d1-4ccf-a251-0d7e0a0ceefc")
+		(uuid "350be122-7286-4a01-9d84-4c5b9adf1c17")
 	)
 	(wire
 		(pts
-			(xy 50.8 38.1) (xy 69.85 38.1)
+			(xy 152.4 50.8) (xy 190.5 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "676c25e9-56f0-4501-a4bd-4f2889fca0c3")
+		(uuid "36d3ce84-74d2-426f-bb92-87f09f90a598")
 	)
 	(wire
 		(pts
-			(xy 171.45 92.71) (xy 171.45 107.95)
+			(xy 114.3 76.2) (xy 114.3 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b1fad83-9994-445f-b6df-abe03ed17201")
+		(uuid "378f0d04-30a3-456d-8040-12ac032f43da")
 	)
 	(wire
 		(pts
-			(xy 171.45 54.61) (xy 171.45 72.39)
+			(xy 187.96 97.79) (xy 190.5 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74aecc1c-5888-49d9-80eb-37a05161b530")
+		(uuid "3813bf4e-1beb-4da3-ab6e-6ff21b5e751c")
 	)
 	(wire
 		(pts
-			(xy 120.65 38.1) (xy 120.65 54.61)
+			(xy 104.14 67.31) (xy 111.76 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74eb258e-5870-4d4e-a12f-3306effbe2f2")
+		(uuid "46f2afb4-07e1-4772-879e-7665bfe0fb94")
 	)
 	(wire
 		(pts
-			(xy 223.52 40.64) (xy 220.98 38.1)
+			(xy 76.2 76.2) (xy 76.2 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a883b47-fc8f-4c73-b999-32b06dd48d60")
+		(uuid "4a22571c-e332-4911-bd78-a18113003703")
 	)
 	(wire
 		(pts
-			(xy 69.85 107.95) (xy 67.31 110.49)
+			(xy 190.5 76.2) (xy 200.66 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b7c4938-79a8-4709-9fdd-f8d89e939664")
+		(uuid "4aca6172-286a-4dcc-a5fb-86f513da6c38")
 	)
 	(wire
 		(pts
-			(xy 69.85 38.1) (xy 69.85 54.61)
+			(xy 76.2 109.22) (xy 114.3 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4301cdc-04c0-41e2-9a7e-de3c1c7d4f12")
+		(uuid "4da536be-2b0d-4feb-9c05-75d664aeb704")
 	)
 	(wire
 		(pts
-			(xy 104.14 54.61) (xy 120.65 54.61)
+			(xy 111.76 67.31) (xy 114.3 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a73fa129-8e39-45df-be92-721db174486f")
+		(uuid "523db27f-a692-4791-b447-5191799404bd")
 	)
 	(wire
 		(pts
-			(xy 154.94 92.71) (xy 171.45 92.71)
+			(xy 73.66 130.81) (xy 76.2 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad598587-ece1-47cd-b5e7-b7a3c6d0e7ec")
+		(uuid "58e7b9d5-2aa7-4925-892c-4f903796b473")
 	)
 	(wire
 		(pts
-			(xy 53.34 110.49) (xy 67.31 110.49)
+			(xy 57.15 50.8) (xy 76.2 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aff4e393-0c18-4618-9cda-1e23950a224b")
+		(uuid "59c2c5e1-210b-4b52-b145-555e04d1afe6")
 	)
 	(wire
 		(pts
-			(xy 171.45 38.1) (xy 171.45 54.61)
+			(xy 76.2 76.2) (xy 114.3 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0d7ce72-0c11-4a5f-a5a7-baabde658111")
+		(uuid "5a283752-8569-4952-be27-013dd79039ad")
 	)
 	(wire
 		(pts
-			(xy 171.45 38.1) (xy 220.98 38.1)
+			(xy 114.3 50.8) (xy 114.3 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b33581d8-69f0-456d-9630-4a3d3e20a6f7")
+		(uuid "5dd3c18f-ac4b-496a-a60d-ac30ec62a94d")
 	)
 	(wire
 		(pts
-			(xy 223.52 40.64) (xy 223.52 52.07)
+			(xy 215.9 50.8) (xy 228.6 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfaeb530-4031-4ca2-a144-1da2f6b69570")
+		(uuid "613c099c-bac3-4f32-8fcc-2b01894e7954")
 	)
 	(wire
 		(pts
-			(xy 69.85 72.39) (xy 69.85 92.71)
+			(xy 152.4 76.2) (xy 152.4 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c887c6d9-42fd-49a3-9235-5bedbe19c027")
+		(uuid "61cf5d2f-2587-431c-bd93-96fb1cc69b66")
 	)
 	(wire
 		(pts
-			(xy 69.85 38.1) (xy 120.65 38.1)
+			(xy 187.96 130.81) (xy 190.5 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d006a186-c34a-4e16-a445-3ae4af26b5a2")
+		(uuid "6b80ded6-909b-4ad8-adaf-fdee5049ad54")
 	)
 	(wire
 		(pts
-			(xy 171.45 72.39) (xy 171.45 92.71)
+			(xy 66.04 67.31) (xy 73.66 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d531cbfc-2cbc-435f-b5d1-9b40d371cf2c")
+		(uuid "6bebb55e-6080-4d55-8649-54b971cb754b")
 	)
 	(wire
 		(pts
-			(xy 120.65 54.61) (xy 120.65 72.39)
+			(xy 76.2 109.22) (xy 76.2 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "daaa2a7d-66db-40e3-87df-53aa0e8fd8ab")
+		(uuid "7166be55-9dbd-443c-bd40-cc801b17e0f2")
 	)
 	(wire
 		(pts
-			(xy 154.94 54.61) (xy 171.45 54.61)
+			(xy 142.24 97.79) (xy 149.86 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e80954e3-ce69-43c7-bf4d-e1b41bc1af51")
+		(uuid "750bcc29-6e9b-447b-b359-a8e79d60f9c3")
 	)
 	(wire
 		(pts
-			(xy 154.94 72.39) (xy 171.45 72.39)
+			(xy 104.14 130.81) (xy 111.76 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f603e0dd-4231-4902-a222-649adde99e65")
+		(uuid "780c8dbf-c81a-4a86-9463-3855f900cc89")
 	)
 	(wire
 		(pts
-			(xy 205.74 54.61) (xy 220.98 54.61)
+			(xy 111.76 130.81) (xy 114.3 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa9b5bda-64e3-4849-a2b7-9a74424295f9")
+		(uuid "7f850629-e2a2-4dc8-9485-2bc7fadc1741")
 	)
 	(wire
 		(pts
-			(xy 53.34 92.71) (xy 69.85 92.71)
+			(xy 76.2 50.8) (xy 76.2 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb384a81-1fa6-477d-a425-54b7951dcf9e")
+		(uuid "82543a28-90ee-49e1-bc0b-34d612de8aa4")
 	)
 	(wire
 		(pts
-			(xy 104.14 110.49) (xy 118.11 110.49)
+			(xy 215.9 50.8) (xy 215.9 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbdb5608-0c46-480c-b997-a972a8935d7d")
+		(uuid "8d1d770e-c817-4c09-ac11-a2a553e972e6")
 	)
 	(wire
 		(pts
-			(xy 120.65 107.95) (xy 118.11 110.49)
+			(xy 73.66 97.79) (xy 76.2 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc4e451a-b43e-4621-b3c0-a2c58e43d4f6")
+		(uuid "8f209371-3b68-4238-9d8e-2514ebea0578")
+	)
+	(wire
+		(pts
+			(xy 66.04 130.81) (xy 73.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911013ac-a579-4898-8483-f28d470779d1")
+	)
+	(wire
+		(pts
+			(xy 142.24 130.81) (xy 149.86 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b9c5a1-63af-476f-aa6c-28c97baa5d5b")
+	)
+	(wire
+		(pts
+			(xy 187.96 67.31) (xy 190.5 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e2e64e-4a57-4cf7-8679-36ff9452786c")
+	)
+	(wire
+		(pts
+			(xy 180.34 130.81) (xy 187.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cae6a36-19bd-4459-a2ac-bf8810aa575f")
+	)
+	(wire
+		(pts
+			(xy 149.86 97.79) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf8fc64-e32c-408b-8e6a-01724008e95f")
+	)
+	(wire
+		(pts
+			(xy 142.24 67.31) (xy 149.86 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c8f004-3095-409b-be1f-e3165c2bcbc6")
+	)
+	(wire
+		(pts
+			(xy 149.86 130.81) (xy 152.4 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71d6d6d-6a74-43a3-9365-94dcc0c49992")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6dd188-2214-4e0d-99c0-c808759a6e24")
+	)
+	(wire
+		(pts
+			(xy 213.36 109.22) (xy 215.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33ecf82-cdc7-485c-ac22-befb44c51dfc")
+	)
+	(wire
+		(pts
+			(xy 203.2 50.8) (xy 203.2 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf12985-9334-404c-8e33-56cd86576d7d")
+	)
+	(wire
+		(pts
+			(xy 180.34 97.79) (xy 187.96 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3712ff-e6f5-4ec1-bfa9-16ffb191689a")
+	)
+	(wire
+		(pts
+			(xy 66.04 97.79) (xy 73.66 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1928e2f-2132-42f3-8c2d-db08579aec54")
+	)
+	(wire
+		(pts
+			(xy 200.66 76.2) (xy 203.2 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c927a54f-e641-4c4a-b097-c5579189ab24")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 152.4 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67ea446-4b64-4dab-abc9-87be1523231e")
+	)
+	(wire
+		(pts
+			(xy 190.5 109.22) (xy 190.5 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72eacb7-eece-4f7a-b536-af9dfc2eee3b")
+	)
+	(wire
+		(pts
+			(xy 114.3 109.22) (xy 152.4 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db11cc93-5159-46e2-9b25-aea842b90778")
+	)
+	(wire
+		(pts
+			(xy 104.14 97.79) (xy 111.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd71fed-228a-471b-82c2-0ff10f503b21")
+	)
+	(wire
+		(pts
+			(xy 203.2 50.8) (xy 215.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18bdf3f-f84d-4840-bf84-d88946b199e4")
+	)
+	(wire
+		(pts
+			(xy 76.2 64.77) (xy 73.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeef4760-2366-4f77-b96b-d08efda299bb")
+	)
+	(wire
+		(pts
+			(xy 114.3 109.22) (xy 114.3 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54fe563-9594-4597-9f39-91f8ea7a421f")
 	)
 	(hierarchical_label "N2K"
 		(shape passive)
-		(at 50.8 38.1 180)
+		(at 228.6 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "0eaccd67-a176-449e-9241-53735578b107")
+		(uuid "b58cd4d1-682c-4641-a3ab-ad82c6c90399")
 	)
 	(symbol
 		(lib_id "falkor-electrical:sensor_n2k")
-		(at 44.45 92.71 0)
+		(at 95.25 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -547,8 +874,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07aace6a-f81c-4a51-a5d2-7315245b2467")
-		(property "Reference" "S8"
-			(at 44.475 83.82 0)
+		(property "Reference" "S2"
+			(at 95.275 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -557,8 +884,8 @@
 				)
 			)
 		)
-		(property "Value" "Sensor"
-			(at 44.475 86.36 0)
+		(property "Value" "Windmeter"
+			(at 95.275 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -568,7 +895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 92.71 0)
+			(at 95.25 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -579,7 +906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 92.71 0)
+			(at 95.25 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -590,7 +917,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 92.71 0)
+			(at 95.25 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -606,15 +933,15 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S8")
+					(reference "S2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "falkor-electrical:sensor_n2k")
-		(at 95.25 72.39 0)
+		(lib_id "Device:Antenna")
+		(at 57.15 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -623,29 +950,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "46fe323b-c4df-443c-94eb-da3e09efc04f")
-		(property "Reference" "S6"
-			(at 95.275 63.5 0)
+		(uuid "45c512eb-67e6-45e6-9a5b-89caffbaa51c")
+		(property "Reference" "AE2"
+			(at 59.69 45.0849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Sensor"
-			(at 95.275 66.04 0)
+		(property "Value" "GPS antenne"
+			(at 59.69 47.6249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 72.39 0)
+			(at 57.15 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -656,7 +985,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 72.39 0)
+			(at 57.15 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 57.15 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4a414d3-f4d2-4509-9494-9735967b5aed")
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
+					(reference "AE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "falkor-electrical:sensor_n2k")
+		(at 57.15 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46fe323b-c4df-443c-94eb-da3e09efc04f")
+		(property "Reference" "S5"
+			(at 57.175 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Tanksensor water BB"
+			(at 57.175 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -667,7 +1073,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 72.39 0)
+			(at 57.15 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -683,7 +1089,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S6")
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -691,7 +1097,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:sensor_n2k")
-		(at 146.05 54.61 0)
+		(at 133.35 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -700,9 +1106,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "50c91c71-05c8-4e9d-ac47-6ef8d256212a")
-		(property "Reference" "S3"
-			(at 146.075 45.72 0)
+		(uuid "60ff46e8-1b6d-4651-8381-dee37c936a64")
+		(property "Reference" "S11"
+			(at 133.375 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -711,8 +1117,8 @@
 				)
 			)
 		)
-		(property "Value" "Sensor"
-			(at 146.075 48.26 0)
+		(property "Value" "Temperatuur motorruimte"
+			(at 133.375 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -722,7 +1128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 54.61 0)
+			(at 133.35 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -733,7 +1139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 54.61 0)
+			(at 133.35 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -744,7 +1150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 54.61 0)
+			(at 133.35 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -755,12 +1161,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "509fae26-a873-4c9b-8fdd-3cefc18f0d88")
+			(uuid "925d90a7-f3e0-47cc-bdd3-d4e86886cdae")
 		)
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S3")
+					(reference "S11")
 					(unit 1)
 				)
 			)
@@ -768,7 +1174,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:sensor_n2k")
-		(at 44.45 72.39 0)
+		(at 57.15 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -778,8 +1184,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61bf98d8-ccc0-4b8b-9292-c22df84656b7")
-		(property "Reference" "S5"
-			(at 44.475 63.5 0)
+		(property "Reference" "S1"
+			(at 57.175 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -788,8 +1194,8 @@
 				)
 			)
 		)
-		(property "Value" "Sensor"
-			(at 44.475 66.04 0)
+		(property "Value" "Log / dieptemeter"
+			(at 57.175 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -799,7 +1205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 72.39 0)
+			(at 57.15 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -810,7 +1216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 72.39 0)
+			(at 57.15 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -821,7 +1227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 72.39 0)
+			(at 57.15 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -837,7 +1243,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S5")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -845,7 +1251,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:sensor_n2k")
-		(at 146.05 110.49 0)
+		(at 95.25 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -854,9 +1260,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "83038b7f-2a80-41d6-8ac3-65f9ea351435")
-		(property "Reference" "S13"
-			(at 146.075 101.6 0)
+		(uuid "7406cbec-96f8-4486-b074-db11f2a5a671")
+		(property "Reference" "S10"
+			(at 95.275 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -865,8 +1271,8 @@
 				)
 			)
 		)
-		(property "Value" "Sensor"
-			(at 146.075 104.14 0)
+		(property "Value" "Temperatuur buiten"
+			(at 95.275 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -876,7 +1282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 110.49 0)
+			(at 95.25 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -887,7 +1293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 110.49 0)
+			(at 95.25 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -898,7 +1304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 110.49 0)
+			(at 95.25 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -909,12 +1315,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6f46930-9266-4c2b-8d06-0ae0e7b2a7c6")
+			(uuid "d96b3d47-a041-473b-a11a-95569e9da242")
 		)
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S13")
+					(reference "S10")
 					(unit 1)
 				)
 			)
@@ -922,7 +1328,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:sensor_n2k")
-		(at 196.85 54.61 0)
+		(at 171.45 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -932,8 +1338,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b4c2da6-fe45-4477-9167-a1053945628f")
-		(property "Reference" "S4"
-			(at 196.875 45.72 0)
+		(property "Reference" "S8"
+			(at 171.475 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -942,8 +1348,8 @@
 				)
 			)
 		)
-		(property "Value" "Sensor"
-			(at 196.875 48.26 0)
+		(property "Value" "Tanksensor vuilwater"
+			(at 171.475 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -953,7 +1359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 54.61 0)
+			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -964,7 +1370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 54.61 0)
+			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -975,7 +1381,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 54.61 0)
+			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -991,7 +1397,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S4")
+					(reference "S8")
 					(unit 1)
 				)
 			)
@@ -999,7 +1405,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:sensor_n2k")
-		(at 146.05 92.71 0)
+		(at 57.15 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1008,9 +1414,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8d6d646f-2979-4a54-95a8-58871ec3b3d6")
-		(property "Reference" "S10"
-			(at 146.075 83.82 0)
+		(uuid "8ec0ee34-af18-44fd-b089-a46bedad9360")
+		(property "Reference" "S9"
+			(at 57.175 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1019,8 +1425,8 @@
 				)
 			)
 		)
-		(property "Value" "Sensor"
-			(at 146.075 86.36 0)
+		(property "Value" "Temperatuur binnen"
+			(at 57.175 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1030,7 +1436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 92.71 0)
+			(at 57.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1041,7 +1447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 92.71 0)
+			(at 57.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1052,7 +1458,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 92.71 0)
+			(at 57.15 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1063,12 +1469,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a982993b-4c3a-4158-bd03-643763e2abff")
+			(uuid "d85c2ec3-53d3-4f51-a8a7-c026e0ee3a70")
 		)
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S10")
+					(reference "S9")
 					(unit 1)
 				)
 			)
@@ -1076,84 +1482,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:sensor_n2k")
-		(at 146.05 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9011a56c-33f3-435a-a72a-dabb7d2d3ac0")
-		(property "Reference" "S7"
-			(at 146.075 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Sensor"
-			(at 146.075 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66510e23-2c1a-4e55-87b0-57226a0d74d2")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "falkor-electrical:sensor_n2k")
-		(at 95.25 92.71 0)
+		(at 95.25 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1163,8 +1492,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e22dfcb-e6be-4fa5-87af-08d7bda96322")
-		(property "Reference" "S9"
-			(at 95.275 83.82 0)
+		(property "Reference" "S6"
+			(at 95.275 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1173,8 +1502,8 @@
 				)
 			)
 		)
-		(property "Value" "Sensor"
-			(at 95.275 86.36 0)
+		(property "Value" "Tanksensor water SB"
+			(at 95.275 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1184,7 +1513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 92.71 0)
+			(at 95.25 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1195,7 +1524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 92.71 0)
+			(at 95.25 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1206,7 +1535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 92.71 0)
+			(at 95.25 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1222,7 +1551,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S9")
+					(reference "S6")
 					(unit 1)
 				)
 			)
@@ -1230,7 +1559,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:sensor_n2k")
-		(at 95.25 110.49 0)
+		(at 133.35 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1240,8 +1569,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a82ec5d9-0c40-4c6f-9854-0627ae4adafc")
-		(property "Reference" "S12"
-			(at 95.275 101.6 0)
+		(property "Reference" "S7"
+			(at 133.375 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1250,8 +1579,8 @@
 				)
 			)
 		)
-		(property "Value" "Sensor"
-			(at 95.275 104.14 0)
+		(property "Value" "Tanksensor diesel"
+			(at 133.375 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1261,7 +1590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 110.49 0)
+			(at 133.35 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1272,7 +1601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 110.49 0)
+			(at 133.35 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1283,7 +1612,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 110.49 0)
+			(at 133.35 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1299,7 +1628,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S12")
+					(reference "S7")
 					(unit 1)
 				)
 			)
@@ -1307,7 +1636,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:sensor_n2k")
-		(at 95.25 54.61 0)
+		(at 171.45 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1316,9 +1645,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e58556cd-c8f9-4746-985c-5efbe736e7bb")
-		(property "Reference" "S2"
-			(at 95.275 45.72 0)
+		(uuid "de0a16c2-f83f-4992-b77a-2866e582c1f3")
+		(property "Reference" "S12"
+			(at 171.475 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1327,8 +1656,8 @@
 				)
 			)
 		)
-		(property "Value" "Sensor"
-			(at 95.275 48.26 0)
+		(property "Value" "Temperatuur koelkast"
+			(at 171.475 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1338,7 +1667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 54.61 0)
+			(at 171.45 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1349,7 +1678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 54.61 0)
+			(at 171.45 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1360,7 +1689,84 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 54.61 0)
+			(at 171.45 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77c574f6-a621-40b6-9a7e-97ba458705c9")
+		)
+		(instances
+			(project "falkor-electrical"
+				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "falkor-electrical:sensor_n2k")
+		(at 171.45 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e58556cd-c8f9-4746-985c-5efbe736e7bb")
+		(property "Reference" "S4"
+			(at 171.475 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Roerstandmeter"
+			(at 171.475 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1376,7 +1782,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S2")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -1384,7 +1790,7 @@
 	)
 	(symbol
 		(lib_id "falkor-electrical:sensor_n2k")
-		(at 44.45 110.49 0)
+		(at 133.35 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1394,8 +1800,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebb6022e-62ab-478c-b225-01dc3645855d")
-		(property "Reference" "S11"
-			(at 44.475 101.6 0)
+		(property "Reference" "S3"
+			(at 133.375 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1404,8 +1810,8 @@
 				)
 			)
 		)
-		(property "Value" "Sensor"
-			(at 44.475 104.14 0)
+		(property "Value" "Kompas"
+			(at 133.375 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1415,7 +1821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 110.49 0)
+			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1426,7 +1832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 110.49 0)
+			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1437,7 +1843,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 110.49 0)
+			(at 133.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1453,84 +1859,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "falkor-electrical:sensor_n2k")
-		(at 44.45 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edcd311f-229f-4dbe-809c-e5b500d976ad")
-		(property "Reference" "S1"
-			(at 44.475 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Sensor"
-			(at 44.475 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6084af24-a743-490b-885f-005085c55754")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/915ffc08-98db-475b-937e-c98ec25874ac"
-					(reference "S1")
+					(reference "S3")
 					(unit 1)
 				)
 			)
