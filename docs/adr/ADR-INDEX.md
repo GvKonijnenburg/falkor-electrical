@@ -14,6 +14,12 @@ De nummers zijn stabiel en verwijzen naar concrete besluiten. Nieuwe ADR’s wor
 - ADR‑002 — Architecturale nummering van KiCad subsheets en facades  
 - ADR‑003 — 60‑laag als System Infrastructure
 
+## Operationeel profiel
+
+*Legt vast voor welk gebruiksprofiel de target-architectuur wordt ontworpen.*
+
+- ADR‑019 — Operationeel profiel van Falkor
+
 ---
 
 ## Platformkeuzes
@@ -22,6 +28,17 @@ De nummers zijn stabiel en verwijzen naar concrete besluiten. Nieuwe ADR’s wor
 
 - ADR‑012 — Platformkeuze voor energie
 - ADR‑014 — Platformkeuze voor data
+
+---
+
+## Functionele architectuur
+
+*Legt vast hoe systeemcapaciteiten worden gerealiseerd, onafhankelijk van concrete producten.*
+
+- ADR-015 — AIS transmissietechnologie
+- ADR-016 — Eisen aan presentatie van AIS-informatie
+- ADR-017 — Acceptabele degradatie van AIS-capabilities
+- ADR-018 — Antennearchitectuur voor VHF en AIS
 
 ---
 
