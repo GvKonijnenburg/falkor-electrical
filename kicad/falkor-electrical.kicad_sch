@@ -408,16 +408,10 @@
 		(uuid "ae14df45-1291-4d19-aad9-932f7ca284e3")
 	)
 	(junction
-		(at 185.42 55.88)
+		(at 177.8 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b160a4f6-6036-4691-ab04-3bcc8d5f021e")
-	)
-	(junction
-		(at 177.8 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c296efda-0327-4176-bea3-ad445e659a09")
+		(uuid "bbaaaf5d-bf81-4e51-a7ce-5b85d3a00ef2")
 	)
 	(bus_entry
 		(at 46.99 55.88)
@@ -478,7 +472,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 55.88) (xy 190.5 55.88)
+			(xy 165.1 55.88) (xy 190.5 55.88)
 		)
 		(stroke
 			(width 0)
@@ -528,7 +522,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 73.66) (xy 190.5 73.66)
+			(xy 177.8 71.12) (xy 190.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -688,6 +682,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 76.2) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df07eb1-d94c-4c4d-94b5-b0b5745398ce")
+	)
+	(wire
+		(pts
 			(xy 228.6 132.08) (xy 241.3 132.08)
 		)
 		(stroke
@@ -718,7 +722,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 73.66) (xy 177.8 73.66)
+			(xy 187.96 73.66) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e5ae36-1e15-4333-ba36-89c1a9e272bf")
+	)
+	(wire
+		(pts
+			(xy 165.1 71.12) (xy 177.8 71.12)
 		)
 		(stroke
 			(width 0)
@@ -808,16 +822,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 55.88) (xy 185.42 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aedb80c6-4c3d-470e-8337-0c235621efab")
-	)
-	(wire
-		(pts
 			(xy 123.19 66.04) (xy 127 66.04)
 		)
 		(stroke
@@ -885,6 +889,16 @@
 			(type default)
 		)
 		(uuid "be22b29f-9579-468e-8a22-e1b889cc558b")
+	)
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55cbc24-772f-4d97-81e8-b72c158f0e1a")
 	)
 	(wire
 		(pts
@@ -988,13 +1002,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 55.88) (xy 185.42 88.9)
+			(xy 187.96 73.66) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e187d82a-bb88-4ade-bf54-5d042a6660f7")
+		(uuid "e69e814e-1d42-4a24-9883-cce2749c113b")
 	)
 	(wire
 		(pts
@@ -1035,16 +1049,6 @@
 			(type default)
 		)
 		(uuid "f3a700c7-6120-4790-ae0b-6e6f0be7cf06")
-	)
-	(wire
-		(pts
-			(xy 177.8 73.66) (xy 177.8 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7751098-b52e-45fc-b781-803499b90bbe")
 	)
 	(wire
 		(pts
@@ -1404,7 +1408,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_NEG_HOUSE" passive
+		(pin "GND" passive
 			(at 190.5 91.44 180)
 			(uuid "3d6a40ed-9222-4fc9-b192-85b3fb048c1d")
 			(effects
@@ -1739,7 +1743,7 @@
 				(justify left top)
 			)
 		)
-		(pin "DC_NEG_HOUSE" bidirectional
+		(pin "DC_NEG_PWR_CONV" bidirectional
 			(at 165.1 55.88 0)
 			(uuid "37c7bdf8-f805-4361-8e53-4c14c607e76e")
 			(effects
@@ -1749,7 +1753,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_POS_HOUSE" bidirectional
+		(pin "DC_POS_PWR_CONV" bidirectional
 			(at 165.1 53.34 0)
 			(uuid "88694151-0098-4c9e-b3d7-8499c1532904")
 			(effects
@@ -1790,7 +1794,7 @@
 			)
 		)
 		(pin "N2K" passive
-			(at 165.1 73.66 0)
+			(at 165.1 71.12 0)
 			(uuid "56bafc96-a7b4-43f7-ab5b-4c5a9376250b")
 			(effects
 				(font
@@ -1866,7 +1870,7 @@
 				(justify right)
 			)
 		)
-		(pin "DC_NEG_HOUSE" bidirectional
+		(pin "DC_NEG_PWR_CONV" bidirectional
 			(at 190.5 55.88 180)
 			(uuid "ac768491-6418-4501-9560-449612ad10c2")
 			(effects
@@ -1907,7 +1911,7 @@
 			)
 		)
 		(pin "N2K" passive
-			(at 190.5 73.66 180)
+			(at 190.5 71.12 180)
 			(uuid "fa340ff9-e121-4d89-9fcb-7c93e1981b81")
 			(effects
 				(font
@@ -1926,9 +1930,19 @@
 				(justify right)
 			)
 		)
-		(pin "DC_POS_HOUSE" bidirectional
+		(pin "DC_POS_PWR_CONV" bidirectional
 			(at 190.5 53.34 180)
 			(uuid "dedece34-781b-465d-8627-639998888c47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" output
+			(at 190.5 73.66 180)
+			(uuid "26177974-9388-4923-9f68-c5f4eab313ff")
 			(effects
 				(font
 					(size 1.27 1.27)

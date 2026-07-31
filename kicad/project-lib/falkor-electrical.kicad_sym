@@ -1418,6 +1418,189 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Orion_XS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Orion_XS_1_1"
+			(rectangle
+				(start -11.4 9.9)
+				(end 11.4 -6.3)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 194 194 194 1)
+				)
+			)
+			(pin passive line
+				(at -5.08 -8.89 90)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 -8.89 90)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 7.62 0)
+				(length 2.54)
+				(name "REMOTE_L"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 3.81 0)
+				(length 2.54)
+				(name "REMOTE_H"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 7.62 180)
+				(length 2.54)
+				(name "VE_Direct"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Relay_SPST-NO"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1727,6 +1910,248 @@
 					)
 				)
 				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VE_CAN_Terminator"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "F"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VE.Can terminator"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "VE_CAN_Terminator_0_1"
+			(rectangle
+				(start -2.6 2.5)
+				(end 2.6 -5.8)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VE_CAN_Terminator_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "VE_CAN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Victron_NG_Accu"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "B"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Victron Lithium NG"
+			(at 0 -7.112 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Victron_NG_Accu_0_1"
+			(rectangle
+				(start -7.6 3.7)
+				(end 7.6 -3.8)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Victron_NG_Accu_1_1"
+			(pin power_out line
+				(at -3.81 6.35 270)
+				(length 2.54)
+				(name "POS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 5.08 6.35 270)
+				(length 2.54)
+				(name "NEG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "BMS_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "BMS_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2336,14 +2761,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "lynx_distributor"
+	(symbol "lynx_bms"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "A"
-			(at 0 0 0)
+			(at 0 16.256 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2352,8 +2777,8 @@
 				)
 			)
 		)
-		(property "Value" "Lynx Distributor"
-			(at 0 0 0)
+		(property "Value" "Lynx BMS"
+			(at 0 14.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2395,7 +2820,7 @@
 				)
 			)
 		)
-		(symbol "lynx_distributor_1_1"
+		(symbol "lynx_bms_1_1"
 			(rectangle
 				(start -24 12.7)
 				(end 24.1 -12.7)
@@ -2408,10 +2833,10 @@
 					(color 194 194 194 0.5019607843)
 				)
 			)
-			(pin power_in line
-				(at -26.67 5.08 0)
+			(pin passive line
+				(at -22.86 -15.24 90)
 				(length 2.54)
-				(name "RAIL_POS_IN"
+				(name "AUX_POS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2426,10 +2851,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -26.67 -5.08 0)
+			(pin passive line
+				(at -20.32 -15.24 90)
 				(length 2.54)
-				(name "RAIL_NEG_IN"
+				(name "AUX_NEG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2444,10 +2869,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 26.67 5.08 180)
+			(pin passive line
+				(at -17.78 -15.24 90)
 				(length 2.54)
-				(name "RAIL_POS_OUT"
+				(name "ATC_POS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2462,10 +2887,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 26.67 -5.08 180)
+			(pin passive line
+				(at -15.24 -15.24 90)
 				(length 2.54)
-				(name "RAIL_NEG_OUT"
+				(name "ATC_NEG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2480,10 +2905,118 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -20.32 -15.24 90)
+			(pin passive line
+				(at -12.7 -15.24 90)
 				(length 2.54)
-				(name "DC+"
+				(name "ATD_POS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -15.24 90)
+				(length 2.54)
+				(name "ATD_NEG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -15.24 90)
+				(length 2.54)
+				(name "RELAY_COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -15.24 90)
+				(length 2.54)
+				(name "RELAY_NO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 90)
+				(length 2.54)
+				(name "RELAY_NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(name "REM_H"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -15.24 90)
+				(length 2.54)
+				(name "REM_L"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2498,10 +3031,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -15.24 -15.24 90)
+			(pin passive line
+				(at 5.08 -15.24 90)
 				(length 2.54)
-				(name "DC-"
+				(name "RESERVED_12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2516,10 +3049,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -10.16 -15.24 90)
+			(pin passive line
+				(at 7.62 -15.24 90)
 				(length 2.54)
-				(name "DC+"
+				(name "RESERVED_13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2534,107 +3067,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -5.08 -15.24 90)
+			(pin passive line
+				(at 13.97 -15.24 90)
 				(length 2.54)
-				(name "DC-"
+				(name "VE_CAN_A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 5.08 -15.24 90)
-				(length 2.54)
-				(name "DC+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 10.16 -15.24 90)
-				(length 2.54)
-				(name "DC-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -15.24 90)
-				(length 2.54)
-				(name "DC+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 -15.24 90)
-				(length 2.54)
-				(name "DC-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -15.24 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2643,9 +3086,99 @@
 				)
 			)
 			(pin passive line
-				(at -26.67 0 0)
+				(at 16.51 -15.24 90)
 				(length 2.54)
-				(name "RJ10_L"
+				(name "VE_CAN_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -15.24 90)
+				(length 2.54)
+				(name "BMS_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -15.24 90)
+				(length 2.54)
+				(name "BMS_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -26.67 5.08 0)
+				(length 2.54)
+				(name "RJ10_LEFT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 26.67 5.08 180)
+				(length 2.54)
+				(name "RJ10_RIGHT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -26.67 10.16 0)
+				(length 2.54)
+				(name "POS_LEFT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2660,10 +3193,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 26.67 0 180)
+			(pin power_in line
+				(at -26.67 7.62 0)
 				(length 2.54)
-				(name "RJ10_R"
+				(name "NEG_LEFT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2671,6 +3204,154 @@
 					)
 				)
 				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 26.67 10.16 180)
+				(length 2.54)
+				(name "POS_RIGHT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 26.67 7.62 180)
+				(length 2.54)
+				(name "NEG_RIGHT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "lynx_distributor_fuse_monitoring"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "A"
+			(at 0 4.826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Lynx Distributor Monitoring"
+			(at 0 3.048 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "lynx_distributor_fuse_monitoring_0_1"
+			(rectangle
+				(start -10.1 2)
+				(end 10.1 -2)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "lynx_distributor_fuse_monitoring_1_1"
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "RJ10_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "RJ10_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)

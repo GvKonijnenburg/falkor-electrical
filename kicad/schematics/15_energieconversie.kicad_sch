@@ -763,7 +763,7 @@
 		)
 		(uuid "48d9f859-46fe-4da6-96b7-9618327c1bd8")
 	)
-	(hierarchical_label "DC_POS_HOUSE"
+	(hierarchical_label "DC_POS_PWR_CONV"
 		(shape bidirectional)
 		(at 161.29 25.4 0)
 		(effects
@@ -785,7 +785,7 @@
 		)
 		(uuid "cc53a287-d8fc-4044-ad08-0195ab0231cc")
 	)
-	(hierarchical_label "DC_NEG_HOUSE"
+	(hierarchical_label "DC_NEG_PWR_CONV"
 		(shape bidirectional)
 		(at 161.29 27.94 0)
 		(effects

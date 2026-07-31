@@ -7,344 +7,190 @@
 	(title_block
 		(company "Gerard van Konijnenburg")
 	)
-	(lib_symbols
-		(symbol "falkor-electrical:IF_Passief"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "T"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "IF_Passief_1_1"
-				(rectangle
-					(start -1.2 1.2)
-					(end 1.2 -1.2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 194 194 194 0.5019607843)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "falkor-electrical:IF_Power_Input"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "T"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "IF_Power_Input_1_1"
-				(rectangle
-					(start -1.2 1.2)
-					(end 1.2 -1.2)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 194 194 194 0.5019607843)
-					)
-				)
-				(pin power_in line
-					(at 0 5.08 270)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
+	(lib_symbols)
+	(no_connect
+		(at 177.8 41.91)
+		(uuid "50e50ebd-e1e4-46a2-b9a6-9200dc823ecb")
 	)
-	(junction
-		(at 50.8 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "312852ac-f2ff-4b15-b8cf-91d506a70726")
+	(no_connect
+		(at 118.11 57.15)
+		(uuid "7f02a3e7-e841-4b7b-be68-f95aa046b67d")
 	)
-	(junction
-		(at 50.8 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3c97496-92a3-460e-acd8-c60a7b7ae111")
+	(no_connect
+		(at 177.8 50.8)
+		(uuid "88bf3ff4-851b-4b42-8734-045082560c28")
+	)
+	(no_connect
+		(at 118.11 60.96)
+		(uuid "9ec31519-0ce3-43a2-8227-38b83e8646a9")
+	)
+	(no_connect
+		(at 132.08 73.66)
+		(uuid "d41e4f12-a8e5-45be-9a21-0df63c50286c")
+	)
+	(no_connect
+		(at 177.8 48.26)
+		(uuid "d6f409d0-05f7-4799-87e5-f9bad0f04616")
+	)
+	(no_connect
+		(at 48.26 67.31)
+		(uuid "dc2e2cc2-23d1-4576-be06-d1eeab3ea5ee")
+	)
+	(no_connect
+		(at 132.08 69.85)
+		(uuid "ded81058-0137-47ab-914a-44a75f50558f")
+	)
+	(no_connect
+		(at 177.8 44.45)
+		(uuid "ee3fd1ae-e89c-4297-a692-74f5820fdd85")
+	)
+	(no_connect
+		(at 55.88 58.42)
+		(uuid "f265445e-cbd4-46f9-af83-34f3925d69b4")
 	)
 	(wire
 		(pts
-			(xy 46.99 85.09) (xy 54.61 85.09)
+			(xy 177.8 58.42) (xy 190.5 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a9bfa7e-867e-4b20-a87d-bcc1201afa0e")
+		(uuid "0226be02-41aa-4e62-b9d3-9e77e7c62cf4")
 	)
 	(wire
 		(pts
-			(xy 45.72 27.94) (xy 53.34 27.94)
+			(xy 142.24 71.12) (xy 139.7 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ae85c66-5154-4791-859c-42936794d6e3")
+		(uuid "05416281-25fe-48ab-86b0-1595a2b886ca")
 	)
 	(wire
 		(pts
-			(xy 50.8 43.18) (xy 53.34 43.18)
+			(xy 127 55.88) (xy 119.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d77ca9f-08f5-4de1-bb9b-3004a38ddb4e")
+	)
+	(wire
+		(pts
+			(xy 127 59.69) (xy 119.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9b0d24-2149-4efc-8ac6-94e0e53a08dd")
+	)
+	(wire
+		(pts
+			(xy 118.11 57.15) (xy 119.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407492f0-f2d0-42f8-b355-c911ba76a910")
+	)
+	(wire
+		(pts
+			(xy 111.76 43.18) (xy 127 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48723012-269e-45e8-96be-b3c00cddfcf4")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5495b4c4-ded1-4fd3-9ee5-27e546ee8bd1")
+	)
+	(wire
+		(pts
+			(xy 177.8 55.88) (xy 190.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a296b08-4d23-49a4-aa2d-17fa11bbe5ee")
+	)
+	(wire
+		(pts
+			(xy 139.7 67.31) (xy 137.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708db0eb-c27e-4728-b08f-c4a2719e96ba")
+	)
+	(wire
+		(pts
+			(xy 142.24 63.5) (xy 142.24 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf64058-f64c-46a3-8477-580e40716eaf")
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 127 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e834cf4-5b4a-416a-b138-7fe16d18d8f2")
+	)
+	(wire
+		(pts
+			(xy 132.08 69.85) (xy 137.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efe13fd-0a35-44be-bad5-cae7c76dfe90")
+	)
+	(wire
+		(pts
+			(xy 111.76 40.64) (xy 127 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90daa868-c9f7-449d-a77b-6177c84076a2")
+	)
+	(wire
+		(pts
+			(xy 48.26 58.42) (xy 55.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d534761-a7ed-4dc8-87c2-072b2e660cd7")
+	)
+	(wire
+		(pts
+			(xy 111.76 46.99) (xy 127 46.99)
 		)
 		(stroke
 			(width 0)
@@ -354,67 +200,27 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 46.99) (xy 50.8 46.99)
+			(xy 139.7 63.5) (xy 139.7 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a49c892f-208a-4b2e-a471-d8fbb713da97")
+		(uuid "ae519daa-b4ee-4d5c-ae60-10fdbfc41cfb")
 	)
 	(wire
 		(pts
-			(xy 45.72 55.88) (xy 52.07 55.88)
+			(xy 118.11 60.96) (xy 119.38 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b79c889c-8b69-4192-8458-e24d5bd4ae9e")
+		(uuid "b4c7313d-5d76-43cb-a524-169aa4808a83")
 	)
 	(wire
 		(pts
-			(xy 101.6 53.34) (xy 107.95 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d24abc16-efbd-4da8-b4c7-6db08176f3f1")
-	)
-	(wire
-		(pts
-			(xy 58.42 80.01) (xy 48.26 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da037bea-8e49-4063-967f-4f0abbb1586a")
-	)
-	(wire
-		(pts
-			(xy 45.72 43.18) (xy 50.8 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e534e278-d5f9-447d-8bd8-01e60233b0cd")
-	)
-	(wire
-		(pts
-			(xy 45.72 31.75) (xy 53.34 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efeb1226-e37e-49c6-b764-e756b735867f")
-	)
-	(wire
-		(pts
-			(xy 50.8 46.99) (xy 53.34 46.99)
+			(xy 111.76 49.53) (xy 127 49.53)
 		)
 		(stroke
 			(width 0)
@@ -424,7 +230,7 @@
 	)
 	(hierarchical_label "DC_POS_START"
 		(shape output)
-		(at 45.72 43.18 180)
+		(at 111.76 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -433,9 +239,20 @@
 		)
 		(uuid "10bdae65-e5e9-42d5-bf8e-25c714bee0ce")
 	)
+	(hierarchical_label "N2K"
+		(shape passive)
+		(at 48.26 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f29ab07-d33d-43c1-baeb-41a9296aa2a6")
+	)
 	(hierarchical_label "DC_NEG_START"
 		(shape output)
-		(at 45.72 46.99 180)
+		(at 111.76 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -444,851 +261,71 @@
 		)
 		(uuid "2e10234c-a52e-4cde-b3ed-9b74b0686270")
 	)
-	(hierarchical_label "N2K"
-		(shape passive)
-		(at 48.26 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4bf8301f-6a62-4bfb-a6e7-9a60595c9c34")
-	)
 	(hierarchical_label "RF"
 		(shape passive)
-		(at 46.99 85.09 180)
+		(at 48.26 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "62b97880-6617-4b42-8b0d-02aee43998ca")
-	)
-	(hierarchical_label "DC_NEG_HOUSE"
-		(shape bidirectional)
-		(at 45.72 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67bc46f5-430d-467d-8e8a-43d1f2a643a5")
+		(uuid "a92e4b8f-6498-44ca-baac-de05e4b6ec3f")
 	)
 	(hierarchical_label "DC_NEG_ALTERNATOR"
 		(shape input)
-		(at 45.72 55.88 180)
+		(at 190.5 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b65adb23-4742-4c4c-bb3c-573332027b07")
 	)
-	(hierarchical_label "DC_POS_HOUSE"
-		(shape bidirectional)
-		(at 45.72 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b7a4a30b-25be-49cd-9be0-ffc5c1ee9ef4")
-	)
 	(hierarchical_label "DC_POS_ALTERNATOR"
 		(shape input)
-		(at 101.6 53.34 180)
+		(at 190.5 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c9477563-f946-4a15-be86-607d0f5eff87")
 	)
-	(symbol
-		(lib_id "falkor-electrical:IF_Passief")
-		(at 59.69 85.09 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d3f0b72-0d82-41c5-996f-2a67247df3b1")
-		(property "Reference" "T8"
-			(at 62.23 85.0899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+	(hierarchical_label "DC_NEG_PWR_CONV"
+		(shape bidirectional)
+		(at 111.76 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" ""
-			(at 59.69 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e033a9c-56cc-4bec-8a08-581bf776ef11")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "T8")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "e0ef9191-b3a3-49b5-a146-cb5993b8b757")
 	)
-	(symbol
-		(lib_id "falkor-electrical:IF_Passief")
-		(at 58.42 27.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d2f0cee-8d36-4fea-819a-8d1b5fd9fa01")
-		(property "Reference" "T1"
-			(at 60.96 27.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+	(hierarchical_label "DC_POS_PWR_CONV"
+		(shape bidirectional)
+		(at 111.76 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" ""
-			(at 58.42 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14183c8e-7f2f-477f-8f2a-7237ff759903")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "T1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "eb024f34-b622-4c4d-8533-7a64bc62427a")
 	)
-	(symbol
-		(lib_id "falkor-electrical:IF_Passief")
-		(at 63.5 80.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ad4d16b-8d62-4319-b148-872dac0b89c9")
-		(property "Reference" "T7"
-			(at 66.04 80.0099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 111.76 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" ""
-			(at 63.5 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b7fdf513-075f-4f05-b23f-1725822bc2a5")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "T7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 113.03 53.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6da93845-42e8-49af-924e-d783a7666256")
-		(property "Reference" "T5"
-			(at 115.57 53.3399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 113.03 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90003e86-6a78-4d5c-85c4-3d590e126b00")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "T5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 58.42 46.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "716b90a6-28be-4563-88f4-883f1698bace")
-		(property "Reference" "T4"
-			(at 60.96 46.9899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 58.42 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90003e86-6a78-4d5c-85c4-3d590e126b01")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "T4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "falkor-electrical:IF_Passief")
-		(at 58.42 31.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b7cc24c-ed13-46cd-a85d-dc4dd9907f92")
-		(property "Reference" "T2"
-			(at 60.96 31.7499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 58.42 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "919ff0f8-bd2c-44d5-9d5f-0fbaee51a195")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "T2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 50.8 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aec15502-0dc5-428a-be92-0ac2eef18f2a")
-		(property "Reference" "#FLG01"
-			(at 50.8 41.275 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 50.8 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 50.8 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f018bbf1-57c6-4663-9125-c4391a3f29dc")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 58.42 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba00a5e0-1988-4f8b-b6e7-96c3d54ef88b")
-		(property "Reference" "T3"
-			(at 60.96 43.1799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 58.42 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90003e86-6a78-4d5c-85c4-3d590e126b03")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "T3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 50.8 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec823a66-b674-400e-8a79-e5b58ab84f3f")
-		(property "Reference" "#FLG02"
-			(at 50.8 45.085 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 50.8 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 50.8 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da2e70e1-ebbb-4ad2-98b4-0161fc0bdadd")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "falkor-electrical:IF_Power_Input")
-		(at 57.15 55.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f095064f-489f-4168-869f-c5f95dd57fc4")
-		(property "Reference" "T6"
-			(at 59.69 55.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 57.15 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90003e86-6a78-4d5c-85c4-3d590e126b05")
-		)
-		(instances
-			(project "falkor-electrical"
-				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/f70ca05a-4760-453c-90df-e8f85c465826"
-					(reference "T6")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "ec1bf919-7386-4798-8c93-a28ad9c813a1")
 	)
 	(sheet
 		(at 127 38.1)
@@ -1329,57 +366,7 @@
 				(justify left top)
 			)
 		)
-		(pin "DC_NEG_COMFORT" output
-			(at 177.8 58.42 0)
-			(uuid "ea331fa3-c4a9-45a7-a823-7da070007b94")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_NEG_ESSENTIAL" output
-			(at 177.8 43.18 0)
-			(uuid "82d1b935-9767-4072-a1af-0bf430441d3d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_NEG_HOUSE" bidirectional
-			(at 127 58.42 180)
-			(uuid "95fa775d-98b0-46c0-a52a-c06f6a847a90")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DC_POS_COMFORT" output
-			(at 177.8 55.88 0)
-			(uuid "b3ede3a4-1487-4a92-aa9d-d9eef659a654")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_POS_ESSENTIAL" output
-			(at 177.8 40.64 0)
-			(uuid "f81bcadb-1f8d-4015-8eb7-3ba67630d93b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DC_NEG_CHARGER_INVERTER" bidirectional
+		(pin "DC_NEG_PWR_CONV" bidirectional
 			(at 127 43.18 180)
 			(uuid "490db36b-5210-414c-a22c-d552999ba957")
 			(effects
@@ -1389,9 +376,139 @@
 				(justify left)
 			)
 		)
-		(pin "DC_POS_CHARGER_INVERTER" bidirectional
+		(pin "DC_POS_PWR_CONV" bidirectional
 			(at 127 40.64 180)
 			(uuid "55f2dbd9-f4b3-422f-a0e9-34ddf9439e9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VE_Direct" passive
+			(at 127 59.69 180)
+			(uuid "a6784685-5a14-44fe-9b93-5bff7ee67a2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_NEG_START" output
+			(at 127 49.53 180)
+			(uuid "5fbdcec6-8cbd-4632-b39d-0e290c0c9d64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_NEG_ALTERNATOR" input
+			(at 177.8 58.42 0)
+			(uuid "0e49bbcb-ae7f-4660-833e-85b04f694d21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_POS_START" output
+			(at 127 46.99 180)
+			(uuid "2bc88736-26be-48bc-9a8b-dc81e8781f61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_POS_ALTERNATOR" input
+			(at 177.8 55.88 0)
+			(uuid "de5d531b-92ae-4f38-b244-14f74429210c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VE_CAN" passive
+			(at 127 55.88 180)
+			(uuid "d6ad818f-d065-4f5b-ab65-005858231f77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DC_POS_CONSUMERS" output
+			(at 177.8 48.26 0)
+			(uuid "1b7495a2-6985-4184-854e-70f344d51c8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_NEG_CONSUMERS" output
+			(at 177.8 50.8 0)
+			(uuid "c00cbf67-4201-4ed7-a80f-5b5a93b5838e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_POS_ALWAYS_ON" output
+			(at 177.8 41.91 0)
+			(uuid "703a86b4-9f6e-436e-9498-f2b46d231dd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_NEG_ALWAYS_ON" output
+			(at 177.8 44.45 0)
+			(uuid "d00e30b8-b23a-4752-a366-b28e3026324c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" output
+			(at 127 53.34 180)
+			(uuid "f7001bdc-11b6-4132-85d0-a927f4904957")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUX_NEG" output
+			(at 142.24 63.5 270)
+			(uuid "6bdbe0c5-3428-456a-964e-a59bf45510be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUX_POS" output
+			(at 139.7 63.5 270)
+			(uuid "677b964a-a2e4-4d98-95b2-1144334531ed")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -830,7 +830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "122cbdbe-1f2f-4965-94ed-d4c4901c8dc4")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG2"
 			(at 113.03 47.625 0)
 			(hide yes)
 			(show_name no)
@@ -890,7 +890,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
-					(reference "#FLG04")
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -988,7 +988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5a142bf-1935-4a49-a159-24c54487d7da")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG1"
 			(at 113.03 38.735 0)
 			(hide yes)
 			(show_name no)
@@ -1048,7 +1048,7 @@
 		(instances
 			(project "falkor-electrical"
 				(path "/9f36350e-4cf0-4a74-b7c3-6abcdf4429c7/af7fc4f0-c6f0-4760-b6f1-dc4abcc6f651/3303258c-cace-45b6-b0ec-1149fee92741"
-					(reference "#FLG03")
+					(reference "#FLG1")
 					(unit 1)
 				)
 			)

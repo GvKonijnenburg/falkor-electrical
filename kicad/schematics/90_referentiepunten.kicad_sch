@@ -196,7 +196,7 @@
 		)
 		(uuid "d3e5184f-817a-40cd-933c-885b4e97e9e9")
 	)
-	(hierarchical_label "DC_NEG_HOUSE"
+	(hierarchical_label "GND"
 		(shape passive)
 		(at 63.5 53.34 180)
 		(effects
