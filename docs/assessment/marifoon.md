@@ -118,27 +118,19 @@ Bediening vanuit de kaartentafel is wenselijk als fallback-capability, maar vorm
 
 ### AIS-functionaliteit in de marifoon
 
-AIS-functionaliteit wordt geleverd door een afzonderlijk AIS-subsysteem conform ADR-015, ADR-016, ADR-017 en ADR-018.
-
-Geïntegreerde AIS-functionaliteit vormt daarom geen zelfstandig selectiecriterium.
+AIS-functionaliteit wordt geleverd door een afzonderlijk AIS-subsysteem conform ADR-015, ADR-016, ADR-017 en ADR-018. Geïntegreerde AIS-functionaliteit vormt daarom geen zelfstandig selectiecriterium.
 
 ### Dual Watch
 
-Voor de operationele scenario's van Falkor is geen concrete use case geïdentificeerd waarin Dual Watch een expliciete requirement invult.
-
-De aanwezigheid van Dual Watch vormt daarom geen zelfstandig selectiecriterium.
+Voor de operationele scenario's van Falkor is geen concrete use case geïdentificeerd waarin Dual Watch een expliciete requirement invult.De aanwezigheid van Dual Watch vormt daarom geen zelfstandig selectiecriterium.
 
 ### Voice replay
 
-Voice replay biedt aanvullende functionaliteit, maar vult momenteel geen expliciete requirement in.
-
-Voice replay vormt daarom geen zelfstandig selectiecriterium.
+Voice replay biedt aanvullende functionaliteit, maar vult momenteel geen expliciete requirement in. Voice replay vormt daarom geen zelfstandig selectiecriterium.
 
 ### Derde bedieningsstation
 
-Er bestaat momenteel geen expliciete requirement voor meer dan twee potentiële bedieningslocaties.
-
-Ondersteuning voor een derde bedieningsstation vormt daarom geen zelfstandig selectiecriterium.
+Er bestaat momenteel geen expliciete requirement voor meer dan twee potentiële bedieningslocaties. Ondersteuning voor een derde bedieningsstation vormt daarom geen zelfstandig selectiecriterium.
 
 ## Beoordeling van bedieningslocaties
 
