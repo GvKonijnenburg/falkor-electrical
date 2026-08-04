@@ -15,6 +15,18 @@ Deze beoordeling vertaalt de huidige architectuur naar een concrete productvoork
 - ADR-017 — Acceptabele degradatie van AIS-capabilities
 - ADR-018 — Antennearchitectuur voor VHF en AIS
 
+## Geïntegreerde versus externe splitter
+
+ADR-018 geeft de voorkeur aan een zelfstandige splitter als infrastructuurcomponent.
+
+Tijdens de evaluatie is vastgesteld dat geïntegreerde splitters praktische voordelen kunnen bieden, waaronder:
+
+- minder componenten;
+- minder bekabeling;
+- eenvoudigere installatie.
+
+Deze voordelen zijn onvoldoende om ADR-018 te herzien, maar zijn wel legitieme argumenten bij de beoordeling van concrete producten. Producten met geïntegreerde splitters worden daarom niet uitgesloten, maar beoordeeld op hun totale architecturale en praktische fit.
+
 ## Kandidaatoplossingen
 
 ### em-trak B951
@@ -30,31 +42,9 @@ Deze beoordeling vertaalt de huidige architectuur naar een concrete productvoork
 - Externe splitterarchitectuur
 - Geen functies waarvoor momenteel geen requirement bestaat
 
-**Aandachtspunten:**
-
-- Geen WiFi/Bluetooth
-
 ### em-trak B952
 
-**Prijsindicatie:** € 850
-
-**Architecturale fit:** Hoog
-
-**Sterke punten:**
-
-- Voldoet aan alle eisen van de B951
-- WiFi
-- Bluetooth
-- Extra distributiemogelijkheden
-
-**Aandachtspunten:**
-
-- Hogere kosten
-- Extra functionaliteit vult momenteel geen expliciete requirement in
-
-### Raymarine AIS700
-
-**Prijsindicatie:** € 995
+**Prijsindicatie:** € 900
 
 **Architecturale fit:** Hoog
 
@@ -62,21 +52,68 @@ Deze beoordeling vertaalt de huidige architectuur naar een concrete productvoork
 
 - SOTDMA
 - NMEA 2000
-- Sterke integratie met Raymarine-ecosysteem
-- Ingebouwde splitter
+- Externe splitterarchitectuur
+- WiFi
+- Bluetooth
+
 
 **Aandachtspunten:**
 
-- Hogere kosten
-- Geïntegreerde splitter past minder goed bij ADR-018
-- Sterkere koppeling tussen transponder en antenne-infrastructuur
+- Hogere kosten dan de B951
+- Vereist een afzonderlijke splitter conform ADR-018
+- Extra functionaliteit vult momenteel geen expliciete requirement in
+
+### em-trak B953
+
+**Prijsindicatie:** € 850
+**Architecturale fit:** Hoog
+
+**Sterke punten:**
+
+- SOTDMA
+- NMEA 2000
+- Geïntegreerde splitter
+- Minder afzonderlijke componenten
+- Eenvoudigere fysieke installatie
+
+**Aandachtspunten:**
+
+- Hogere kosten dan de B951
+- Geïntegreerde splitter wijkt af van de voorkeursarchitectuur uit ADR-018
+- Vervanging van de AIS-transponder beïnvloedt tevens de splitterfunctie
+- Minder onafhankelijke vervangbaarheid van subsystemen
+
+### Raymarine AIS700
+
+**Prijsindicatie:** € 1.000
+**Architecturale fit:** Hoog
+
+**Sterke punten:**
+
+- SOTDMA
+- NMEA 2000
+- Sterke integratie met Raymarine-ecosysteem
+- Geïntegreerde splitter
+- Minder afzonderlijke componenten
+- Eenvoudigere fysieke installatie
+
+**Aandachtspunten:**
+
+- Hogere kosten dan de B951
+- Geïntegreerde splitter wijkt af van de voorkeursarchitectuur uit ADR-018
+- Vervanging van de AIS-transponder beïnvloedt tevens de splitterfunctie
 - Minder onafhankelijke vervangbaarheid van subsystemen
 
 ## Huidige voorkeurskeuze
 
-1. em-trak B951
-1. em-trak B952
-1. Raymarine AIS700
+1. B951
+   Beste match met huidige requirements.
+1. B953
+   Eenvoudigere installatie tegen een verdedigbare meerprijs.
+1. B952
+   Extra functionaliteit zonder expliciete requirement.
+1. AIS700
+   Functioneel geschikt maar minder aantrekkelijk geprijsd.
 
 Deze keuze dient opnieuw beoordeeld te worden:
 
