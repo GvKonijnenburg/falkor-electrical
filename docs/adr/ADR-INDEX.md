@@ -39,6 +39,7 @@ De nummers zijn stabiel en verwijzen naar concrete besluiten. Nieuwe ADR’s wor
 - ADR-016 — Eisen aan presentatie van AIS-informatie
 - ADR-017 — Acceptabele degradatie van AIS-capabilities
 - ADR-018 — Antennearchitectuur voor VHF en AIS
+- ADR-020 — Marifoon architectuur
 
 ---
 
